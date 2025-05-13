@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     /* 🎨 Cores */
     --cor-primaria: #FBC02D;
     --cor-secundaria: #B71C1C;
     --cor-details: #0D47A1;
     --cor-degrade: linear-gradient(90deg, #B71C1C 0%, #FBC02D 100%);
-    --cor-texto: #333;
-    --cor-fundo: #ffffff;
+    --cor-texto: #ffffff;
+    --cor-fundo: #212121;
   
     /* 🅰️ Fontes */        
     --fonte-principal: 'Montserrat', sans-serif;
+    --font-texto: 'Roboto', sans-serif;
   
     /* 🔠 Tamanhos de fonte - padrão mobile */
       --fs-pequeno: 1rem;      /* 16px */
