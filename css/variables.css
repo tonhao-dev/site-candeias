@@ -13,11 +13,19 @@
     --fonte-principal: 'Montserrat', sans-serif;
     --font-texto: 'Roboto', sans-serif;
   
-    /* 🔠 Tamanhos de fonte - padrão mobile */
+    /* 🔠 Tamanhos de fonte */
       --fs-pequeno: 1rem;      /* 16px */
       --fs-normal: 1.125rem;   /* 18px */
-      --fs-grande: 1.5rem;     /* 24px */
-      --fs-titulo: 2.5rem;     /* 40px */
+      --fs-subtitulo: 1.5rem;     /* 24px */
+      --fs-titulo: 2rem;     /* 32px */
+
+      /*Bold das fontes*/
+      --font-bold-titulo: 900;
+      --font-bold-subtitulo: 800;
+      --font-bold: 700;
+      --font-bold-texto: normal;
+      --font-bold-button: 800;
+
   }
   
   /* 🌐 Responsividade: Desktop (largura menor que 768px) */
@@ -25,7 +33,7 @@
     :root {
         --fs-pequeno: 0.875rem;   /* 14px */
         --fs-normal: 1rem;        /* 16px */
-        --fs-grande: 1.25rem;     /* 20px */
+        --fs-subtitulo: 1.25rem;     /* 20px */
         --fs-titulo: 2rem;        /* 32px */
      
     }
