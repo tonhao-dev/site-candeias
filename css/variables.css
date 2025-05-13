@@ -1,0 +1,30 @@
+:root {
+    /* 🎨 Cores */
+    --cor-primaria: #FBC02D;
+    --cor-secundaria: #B71C1C;
+    --cor-details: #0D47A1;
+    --cor-degrade: linear-gradient(90deg, #B71C1C 0%, #FBC02D 100%);
+    --cor-texto: #333;
+    --cor-fundo: #ffffff;
+  
+    /* 🅰️ Fontes */        
+    --fonte-principal: 'Montserrat', sans-serif;
+  
+    /* 🔠 Tamanhos de fonte - padrão mobile */
+      --fs-pequeno: 1rem;      /* 16px */
+      --fs-normal: 1.125rem;   /* 18px */
+      --fs-grande: 1.5rem;     /* 24px */
+      --fs-titulo: 2.5rem;     /* 40px */
+  }
+  
+  /* 🌐 Responsividade: Desktop (largura menor que 768px) */
+  @media (max-width: 768px) {
+    :root {
+        --fs-pequeno: 0.875rem;   /* 14px */
+        --fs-normal: 1rem;        /* 16px */
+        --fs-grande: 1.25rem;     /* 20px */
+        --fs-titulo: 2rem;        /* 32px */
+     
+    }
+  }
+  
