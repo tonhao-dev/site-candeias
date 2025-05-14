@@ -1,4 +1,4 @@
-  
+  AOS.init();
 // Menu  hamburger
 const hamburger = document.querySelectorAll(".hamburger");
 const nav = document.querySelectorAll(".nav");

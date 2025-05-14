@@ -126,6 +126,51 @@ header {
     /* For absolute positioning of the logo */
     padding: 0 20px;
 
+
+
+}
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+}
+
+/* Esconde o menu inicialmente */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    top: 100%;
+    left: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+/* Itens do dropdown */
+.dropdown-menu li a {
+    display: block;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #333;
+    white-space: nowrap;
+}
+
+.dropdown div i {
+    color: var(--cor-texto);
+    font-size: var(--fs-normal);
+}
+
+/* Hover para mostrar o dropdown */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Estilização opcional */
+.dropdown-menu li a:hover {
+    color: var(--cor-secundaria);
 }
 
 .logo img {
