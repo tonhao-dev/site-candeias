@@ -1,4 +1,4 @@
-
+  AOS.init();
 // Menu  hamburger
 const hamburger = document.querySelector(".hamburger");
 const nav = document.querySelector(".nav");
@@ -27,11 +27,11 @@ hamburger.addEventListener("click", () => nav.classList.toggle("active"));
 
         function startCounting() {
             const counters = document.querySelectorAll('.counter');
-            const speed = 5000; // Quanto maior, mais lento (ajustado para ser mais lento)
+            const speed = 10000; // Quanto maior, mais lento (ajustado para ser mais lento)
             
             counters.forEach(counter => {
                 const target = +counter.getAttribute('data-target');
-                const duration = 5000; // Duração total da animação em milissegundos
+                const duration = 40000; // Duração total da animação em milissegundos
                 const frameDuration = 60; // Duração de cada quadro (para suavidade)
                 const totalFrames = duration / frameDuration;
                 const incrementPerFrame = target / totalFrames;
