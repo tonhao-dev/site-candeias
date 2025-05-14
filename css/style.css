@@ -154,7 +154,8 @@ header {
     display: block;
     padding: 8px 20px;
     text-decoration: none;
-    color: #333;
+    font-size: var(--fs-pequeno);
+    color: var(--cor-fundo);
     white-space: nowrap;
 }
 
