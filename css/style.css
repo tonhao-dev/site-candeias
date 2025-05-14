@@ -23,10 +23,62 @@ button {
 
 .link-active {
     color: var(--cor-primaria);
-
 }
 
+
+
 /*Reutilizaveis*/
+
+/*Barra lateral redes sociais*/
+
+.social-sidebar {
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 1000;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-icon i {
+    font-size: var(--fs-subtitulo);
+}
+
+
+.social-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.facebook {
+    background-color: #1877F2;
+}
+
+.instagram {
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+}
+
+.spotify {
+    background-color: #1DB954;
+}
+
+/*Fim da barra lateral*/
+
 
 /*Container*/
 .container-width {
@@ -51,42 +103,69 @@ button {
 /*Header*/
 header {
     width: 100%;
-    height: 80;
+    height: 80px;
     padding: 10px 10px;
     background-color: var(--cor-fundo);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.3);
+
 }
 
 .nav {
-    height: 70px;
-    margin-inline: auto;
-
     display: flex;
     justify-content: space-between;
+    /* Center the nav items horizontally */
     align-items: center;
+    height: 100%;
+    position: relative;
+    /* For absolute positioning of the logo */
+    padding: 0 20px;
+
 }
 
 .logo img {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 10px;
 }
 
 .logo {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
 
 .nav-list {
     display: flex;
     gap: 32px;
     list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-list li {
+    position: relative;
 }
 
 .nav-list a {
     text-decoration: none;
     font-size: var(--fs-pequeno);
     text-transform: uppercase;
-    padding-block: 16px;
+    padding-block: 30px 0;
+}
+
+.nav-list a:hover{
+    color: var(--cor-texto);
+    opacity: 80%;
 }
 
 
@@ -208,3 +287,143 @@ header {
 }
 
 /*Fim do hamburger responsivo*/
+
+/*Carrosel*/
+
+/*button next e prev*/
+
+.carousel .active {
+    background-color: var(--cor-secundaria);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: none;
+}
+
+/*Fim do carrosel*/
+
+/*Numero do candeias*/
+
+.background-image {
+    width: 100%;
+    height: 500px;
+    /* Ajuste a altura conforme necessário */
+    background-image: url('assets/images/stats/background-stats.png');
+    /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.stats-container {
+    width: 100%;
+    background: var(--cor-degrade);
+    padding: 60px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    width: 150px;
+    /* Largura fixa para melhor alinhamento */
+    text-align: center;
+}
+
+.stat-icon {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.stat-icon i {
+    font-size: var(--fs-titulo);
+    color: var(--cor-secundaria);
+}
+
+.stat-number {
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+     margin-bottom: 5px;
+}
+
+.stat-text {
+    font-size: var(--fs-subtitulo);
+    font-weight: var(--font-bold-subtitulo);
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+
+}
+
+.counter {
+    font-size: var(--fs-subtitulo);
+    font-weight: var(--font-bold-subtitulo);
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .stats-container {
+        flex-direction: column;
+        padding: 40px 10px;
+    }
+
+    .stat-item {
+        margin: 15px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsividade tela mobile(425px)*/
+@media (max-width: 425px) {
+    .nav {
+        padding: 10px 10px;
+    }
+
+    .logo img {
+        width: 60px;
+        height: 60px;
+    }
+}
