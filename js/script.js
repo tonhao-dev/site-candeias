@@ -1,7 +1,7 @@
-  AOS.init();
+  
 // Menu  hamburger
-const hamburger = document.querySelector(".hamburger");
-const nav = document.querySelector(".nav");
+const hamburger = document.querySelectorAll(".hamburger");
+const nav = document.querySelectorAll(".nav");
 
 hamburger.addEventListener("click", () => nav.classList.toggle("active"));
 

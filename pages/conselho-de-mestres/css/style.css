@@ -1,3 +1,13 @@
+main{
+    margin: 120px 0 0 0;
+}
+section{
+    width: 100%;
+}
+header{
+    background-color: rgba(0, 0, 0, 10);
+
+}
 .container-conteudo{
     display: flex;
     flex-direction: column;
@@ -13,8 +23,13 @@ hr {
     padding: 0;
 }
 
+.title-containers{
+    margin: 0 auto 0 auto;
+    text-align: center;
+    width: fit-content;
+}
 .title-containers h1 {
-    margin: 30px 0 0 0;
+    margin: 0 0 0 0;
     font-family: var(--fonte-principal);
     text-transform: uppercase;
     font-size: var(--fs-titulo);
@@ -32,16 +47,19 @@ hr {
     width: 100%;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin: 30px 0 30px 0;
+    margin: 30px 0 0 0;
 }
 .division-box{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    gap: 3.5%;
+    flex-wrap: wrap;
+    margin: 30px 0 0 0;
 }
 .simple-member-box{
     height: 160px;
     width: 31%;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0 0 30px 0;
 }
