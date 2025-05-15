@@ -31,7 +31,7 @@ hamburger.addEventListener("click", () => nav.classList.toggle("active"));
             
             counters.forEach(counter => {
                 const target = +counter.getAttribute('data-target');
-                const duration = 40000; // Duração total da animação em milissegundos
+                const duration = 30000; // Duração total da animação em milissegundos
                 const frameDuration = 60; // Duração de cada quadro (para suavidade)
                 const totalFrames = duration / frameDuration;
                 const incrementPerFrame = target / totalFrames;
