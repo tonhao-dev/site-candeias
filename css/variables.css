@@ -3,6 +3,7 @@
 :root {
     /* 🎨 Cores */
     --cor-primaria: #FBC02D;
+    --cor-primaria-hover: rgb(237, 181, 38);
     --cor-secundaria: #B71C1C;
     --cor-details: #0D47A1;
     --cor-degrade: linear-gradient(90deg, #B71C1C 0%, #FBC02D 100%);
@@ -14,6 +15,7 @@
     --font-texto: 'Roboto', sans-serif;
   
     /* 🔠 Tamanhos de fonte */
+      --fs-button: 0.800rem;
       --fs-pequeno: 1rem;      /* 16px */
       --fs-normal: 1.125rem;   /* 18px */
       --fs-subtitulo: 1.5rem;     /* 24px */

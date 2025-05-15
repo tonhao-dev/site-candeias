@@ -43,7 +43,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    z-index: 1000;
+    z-index: 100;
 }
 
 .social-icon {
@@ -213,7 +213,7 @@ header {
     padding-block: 30px 0;
 }
 
-.nav-list a:hover{
+.nav-list a:hover {
     color: var(--cor-texto);
     opacity: 80%;
 }
@@ -359,11 +359,11 @@ header {
     width: 100%;
     height: 500px;
     z-index: 100; */
-    /* Ajuste a altura conforme necessário */
-    /*
+/* Ajuste a altura conforme necessário */
+/*
     background-image: url('assets/images/stats/background-stats.png');
     /* Substitua pelo caminho da sua imagem */
-    /* background-size: cover;
+/* background-size: cover;
     background-position: center;
     background-repeat: no-repeat; */
 
@@ -413,7 +413,7 @@ header {
     width: 100%;
     text-align: center;
     line-height: 1;
-     margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .stat-text {
@@ -433,9 +433,87 @@ header {
 
 /*Seção História do grupo*/
 
+.title-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.title-about h1 {
+    font-size: var(--fs-titulo);
+    background-image: var(--cor-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 0;
+}
 
+.title-about hr {
+    background-color: var(--cor-primaria);
+    opacity: 100;
+    width: 100px;
+    height: 5px;
+    border: none;
+}
 
+.content-about{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.image-about img {
+    width: 500px;
+}
+
+.image-about, .data-about {
+    padding: 20px 20px;
+}
+
+.subtitle-about h2 {
+    font-size: var(--fs-subtitulo);
+    color: var(--cor-secundaria);
+}
+
+.data-about{
+    padding: 5px 5px;
+    width: max-content;
+}
+
+.text-about {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.text-about p {
+    font-size: var(--fs-pequeno);
+    color: var(--cor-fundo);
+    text-align: left;
+}
+
+.button-about  {
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto);
+    
+    padding: 10px 40px;
+    font-size: var(--fs-button);
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all .2s;
+}
+
+.button-about:hover{
+    background-color: var(--cor-secundaria);
+    color: #fff;
+}
 
 
 
@@ -480,4 +558,3 @@ header {
         margin: 15px 0;
     }
 }
-
