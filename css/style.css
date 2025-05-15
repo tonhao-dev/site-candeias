@@ -29,6 +29,10 @@ button {
 
 /*Reutilizaveis*/
 
+section {
+    padding-block: 100px 100px;
+}
+
 /*Barra lateral redes sociais*/
 
 .social-sidebar {
@@ -350,17 +354,19 @@ header {
 /*Fim do carrosel*/
 
 /*Numero do candeias*/
-
+/*
 .background-image {
     width: 100%;
     height: 500px;
+    z-index: 100; */
     /* Ajuste a altura conforme necessário */
+    /*
     background-image: url('assets/images/stats/background-stats.png');
     /* Substitua pelo caminho da sua imagem */
-    background-size: cover;
+    /* background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-}
+    background-repeat: no-repeat; */
+
 
 .stats-container {
     width: 100%;
@@ -425,18 +431,7 @@ header {
     text-transform: uppercase;
 }
 
-@media (max-width: 768px) {
-    .stats-container {
-        flex-direction: column;
-        padding: 40px 10px;
-    }
-
-    .stat-item {
-        margin: 15px 0;
-    }
-}
-
-
+/*Seção História do grupo*/
 
 
 
@@ -473,3 +468,16 @@ header {
         height: 60px;
     }
 }
+
+
+@media (max-width: 768px) {
+    .stats-container {
+        flex-direction: column;
+        padding: 40px 10px;
+    }
+
+    .stat-item {
+        margin: 15px 0;
+    }
+}
+
