@@ -1,4 +1,4 @@
-name: Build and Deploy to GitHub Pages
+name: Sync to gh-pages and Deploy
 
 on:
   push:
@@ -18,17 +18,13 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Necessário para o merge
+          fetch-depth: 0  # necessário para histórico completo (merge)
 
-      - name: Set up Git user
+      - name: Set up Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -39,6 +35,18 @@ jobs:
           git merge origin/main --no-edit
           git push origin gh-pages
 
+  deploy-pages:
+    needs: deploy
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Checkout `gh-pages`
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
@@ -48,5 +56,5 @@ jobs:
           path: '.'
 
       - name: Deploy to GitHub Pages
-        id: deployment
+        id: deploy
         uses: actions/deploy-pages@v4
