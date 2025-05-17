@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-html, body {
+
+html,
+body {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -14,11 +16,15 @@ main {
     flex: 1;
 }
 
-a {
+a, h1, h2, h3 {
     text-decoration: none;
     color: #fff;
     font-family: var(--fonte-principal);
     font-weight: var(--font-bold);
+}
+
+p {
+    font-family: var(--fonte-texto);
 }
 
 li {
@@ -35,8 +41,8 @@ button {
 }
 
 .grid {
-   display: grid;
-   gap: 1.5rem;
+    display: grid;
+    gap: 1.5rem;
 }
 
 
@@ -359,16 +365,70 @@ header {
 /*Carrosel*/
 
 /*button next e prev*/
+.data-carousel {
+    position: absolute;
+    bottom: 20px;
+    right: 300px;
+    display: flex;
+    gap: 10px;
+    z-index: 1; 
 
+    
+    padding: 10px 50px;
+}
+
+.data-carousel .carousel-control-prev,
+.data-carousel .carousel-control-next {
+    position: static; 
+    
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.data-carousel .carousel-control-prev,
+.data-carousel .carousel-control-next {
+    opacity: 1 !important; /* Remove a transparência padrão do Bootstrap */
+}
+
+
+/* Telas médias */
+@media (max-width: 1024px) {
+    .data-carousel {
+        right: 100px;
+    }
+}
+
+/* Telas pequenas */
+@media (max-width: 768px) {
+    .data-carousel {
+        right: 20px;
+    }
+}
 .carousel .active {
     background-color: var(--cor-secundaria);
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    display: none;
+.seta-slider{
+    color: var(--cor-texto);
+    font-size: var(--fs-subtitulo);
+    font-weight: var(--font-bold);
+    background-color: var(--cor-secundaria);
+
+    border-radius: 10px;
+    padding: 5px 10px;
 }
 
+.seta-slider i {
+    opacity: 100;
+}
 /*Fim do carrosel*/
 
 /*Numero do candeias*/
@@ -437,7 +497,8 @@ header {
 
 /*Seção História do grupo e Filosofia do Mestre Suíno*/
 
-.title-about, .title-location {
+.title-about,
+.title-location {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -455,8 +516,7 @@ header {
 }
 
 .title-about hr,
-.title-location hr
-{
+.title-location hr {
     background-color: var(--cor-primaria);
     opacity: 100;
     width: 100px;
@@ -464,53 +524,52 @@ header {
     border: none;
 }
 
-.content-about{
+.content-about {
     display: flex;
     justify-content: space-between;
     margin: 40px 0;
 }
 
-.image-about img{
+.image-about img {
     width: 500px;
 }
 
-.image-about, .data-about, .image-philosophy
-.data-philosophy
-{
+.image-about,
+.data-about,
+.image-philosophy .data-philosophy {
     padding: 20px 20px;
 }
 
 .subtitle-about h2,
-.subtitle-location h2
-{
+.subtitle-location h2 {
     font-size: var(--fs-subtitulo);
     color: var(--cor-secundaria);
     font-weight: var(--font-bold);
 }
 
-.data-about{
+.data-about {
     padding: 5px 5px;
     width: max-content;
 }
 
-.text-about, .text-location {
+.text-about,
+.text-location {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .text-about p,
-.text-location p
-{
+.text-location p {
     font-size: var(--fs-normal);
     color: var(--cor-fundo);
     text-align: left;
 }
 
-.button-about  {
+.button-about {
     background-color: var(--cor-primaria);
     color: var(--cor-texto);
-    
+
     padding: 10px 40px;
     font-size: var(--fs-button);
     text-transform: uppercase;
@@ -524,7 +583,7 @@ header {
     transition: all .2s;
 }
 
-.button-about:hover{
+.button-about:hover {
     background-color: var(--cor-secundaria);
     color: #fff;
 }
@@ -532,7 +591,7 @@ header {
 /*Fim Seção História do grupo e Filosofia do Mestre Suíno*/
 
 /*Seção Filosofia do Mestre suíno*/
-.content-philosophy{
+.content-philosophy {
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -541,17 +600,17 @@ header {
 
 .image-philosophy {
     position: relative;
-     max-width: 500px;
+    max-width: 500px;
 }
 
-.image-philosophy::after{
+.image-philosophy::after {
     content: "";
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8) 10%, rgba(255,255,255,0) 60%);
+    background: linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.8) 10%, rgba(255, 255, 255, 0) 60%);
     pointer-events: none;
     z-index: 2;
 }
@@ -589,6 +648,7 @@ header {
     text-transform: uppercase;
     font-weight: var(--font-bold-subtitulo);
 }
+
 /*Fim Seção Filosofia do Mestre suíno*/
 
 /*Seção Onde estamos*/
@@ -601,11 +661,11 @@ header {
     margin: 10px 0;
 }
 
-.text-location{
+.text-location {
     max-width: 800px;
 }
 
-.text-location p{
+.text-location p {
     text-align: center;
 }
 
@@ -629,13 +689,15 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    pointer-events: none; /* Para não bloquear clique no mapa */
+    pointer-events: none;
+    /* Para não bloquear clique no mapa */
 }
 
 .titie-mapa-nucleos img {
     width: 200px;
     height: auto;
 }
+
 /*Fim seção onde estamos*/
 
 /*Footer*/
@@ -674,7 +736,7 @@ header {
 }
 
 .footer-logo p {
-    font-size: 14px;
+    font-size: var(--fs-pequeno);
     line-height: 1.4;
     max-width: 200px;
 }
@@ -696,15 +758,18 @@ header {
 
 .footer-section h3 {
     color: #FFCC00;
-    font-size: 18px;
+    font-size: var(--fs-normal);
     margin-bottom: 15px;
-    font-weight: bold;
+    font-weight: var(--font-bold-subtitulo);
     text-transform: uppercase;
 }
 
 .footer-links {
     list-style: none;
+
+    padding: 0;
 }
+
 
 .footer-links li {
     margin-bottom: 8px;
@@ -713,7 +778,8 @@ header {
 .footer-links a {
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
+    font-size: var(--fs-pequeno);
+    font-weight: var(--font-bold);
     transition: color 0.3s;
 }
 
@@ -731,21 +797,25 @@ header {
     display: flex;
     align-items: flex-start;
     font-size: 14px;
+
+    font-size: var(--fs-pequeno);
+    font-weight: var(--font-bold);
 }
 
 .contact-info i {
     margin-right: 10px;
-    color: #FFCC00;
+    color: var(--cor-primaria);
     min-width: 20px;
+    font-size: var(--fs-pequeno);
 }
 
 /* Bottom yellow bar */
 .footer-bottom {
-    background-color: #FFCC00;
+    background-color: var(--cor-primaria);
     padding: 15px 0;
     text-align: center;
-    font-size: 12px;
-    color: #222;
+    font-size: var(--fs-pequeno);
+    color: var(--cor-fundo);
     width: 100%;
 }
 
@@ -753,22 +823,23 @@ header {
     margin: 0;
     padding: 0;
     margin-bottom: 5px;
+
+    font-weight: var(--font-bold);
+    font-family: var(--fonte-principal);
 }
 
-.footer-bottom a {
-    color: #222;
-    text-decoration: underline;
-}
+
 
 /* Responsive design */
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
     }
-    
+
     .footer-section {
         width: 100%;
         margin-bottom: 30px;
     }
 }
+
 /*Fim footer*/
