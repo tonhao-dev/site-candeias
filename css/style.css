@@ -849,3 +849,12 @@ header {
 }
 
 /*Fim footer*/
+
+/*Responsividade*/
+
+/*Tela 1440px (desktop)*/
+ @media screen and (max-width: 1440px){
+    .data-carousel{
+        right: 100px;
+    }
+ }
