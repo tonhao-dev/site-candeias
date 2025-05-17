@@ -16,11 +16,17 @@ main {
     flex: 1;
 }
 
-a, h1, h2, h3 {
+a{
     text-decoration: none;
     color: #fff;
     font-family: var(--fonte-principal);
     font-weight: var(--font-bold);
+}
+
+h1{
+    font-weight: var(--font-bold-titulo);
+    font-size: var(--fs-titulo);
+    text-transform: uppercase;
 }
 
 p {
