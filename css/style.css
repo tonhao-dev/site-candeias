@@ -68,7 +68,6 @@ section {
     height: 40px;
     border-radius: 50%;
     background-color: var(--cor-secundaria);
-    /* cor azul Bootstrap */
     color: white;
     border: none;
     display: flex;
@@ -80,6 +79,7 @@ section {
     transition: all 0.3s ease;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
 }
 
 .back-to-top.visible {
@@ -89,7 +89,6 @@ section {
 
 .back-to-top:hover {
     background-color: var(--cor-fundo);
-    /* cor azul um pouco mais escura */
 }
 
 /* Ícone de seta para cima usando CSS puro */
@@ -294,11 +293,6 @@ header {
 }
 
 
-.hero {
-    height: calc(100vh - 80px);
-    background: center / cover no-repeat var(--cor-texto);
-}
-
 /*Menu hamburger*/
 .hamburger {
     display: none;
@@ -325,6 +319,10 @@ header {
 
 
 /*Carrosel*/
+
+.carousel-inner img {
+    height: 900px;
+}   
 
 /*button next e prev*/
 .data-carousel {
