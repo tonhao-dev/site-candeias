@@ -43,7 +43,7 @@ button {
 }
 
 .link-active {
-    color: var(--cor-primaria);
+    color: var(--cor-primaria) !important;
 }
 
 .grid {
@@ -243,10 +243,15 @@ header {
     display: block;
 }
 
-/* Estilização opcional */
-.dropdown-menu li a:hover {
-    color: var(--cor-secundaria);
+.dropdown-menu li a.link-active {
+    color: var(--cor-primaria) !important;
 }
+
+.dropdown-menu li a:hover{
+    color: var(--cor-secundaria);
+    opacity: 100;
+}
+
 
 .logo img {
     width: 90px;
@@ -789,7 +794,7 @@ header {
     margin: 0;
     padding: 0;
     margin-bottom: 5px;
-
+    color: var(--cor-fundo);
     font-weight: var(--font-bold);
     font-family: var(--fonte-principal);
 }
@@ -929,7 +934,7 @@ header {
 
     .nav.active .hamburger {
         position: fixed;
-        
+
         border-top-color: transparent;
     }
 
@@ -1047,6 +1052,7 @@ header {
     }
 
 
+
 }
 
 @media screen and (max-width: 515px) {
@@ -1063,6 +1069,10 @@ header {
 
     .footer-bottom p {
         width: 400px;
+    }
+
+    .carousel-inner img {
+        height: 800px;
     }
 }
 
@@ -1099,7 +1109,9 @@ header {
         width: 300px;
     }
 
-
+    .carousel-inner img {
+        height: 800px;
+    }
 
     .data-about h2 {
         text-align: center;

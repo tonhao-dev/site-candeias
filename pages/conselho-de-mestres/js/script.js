@@ -3,69 +3,24 @@ AOS.init();
 const hamburger = document.querySelector(".hamburger");
 const nav = document.querySelector(".nav");
 
-hamburger.addEventListener("click", () => nav.classList.toggle("active"));
-
-// Numero do candeias
-  // Observer de Interseção para detectar quando as estatísticas ficam visíveis
-        const observerOptions = {
-            threshold: 0.1
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    // Inicia todos os contadores quando a seção de estatísticas fica visível
-                    startCounting();
-                    // Deixa de observar após iniciar a animação
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, observerOptions);
-
-        // Observa o container de estatísticas
-        observer.observe(document.querySelector('.stats-container'));
-
-        function startCounting() {
-            const counters = document.querySelectorAll('.counter');
-            const speed = 10000; // Quanto maior, mais lento (ajustado para ser mais lento)
-            
-            counters.forEach(counter => {
-                const target = +counter.getAttribute('data-target');
-                const duration = 40000; // Duração total da animação em milissegundos
-                const frameDuration = 60; // Duração de cada quadro (para suavidade)
-                const totalFrames = duration / frameDuration;
-                const incrementPerFrame = target / totalFrames;
-                
-                let currentCount = 0;
-                let frame = 0;
-                
-                const updateCount = () => {
-                    frame++;
-                    // Usar easing para tornar a animação mais suave
-                    // Easing function: ease-out (desacelera no final)
-                    currentCount = easeOutQuad(frame, 0, target, totalFrames);
-                    
-                    counter.innerText = Math.floor(currentCount);
-                    
-                    if (frame < totalFrames) {
-                        // Continua a animação
-                        requestAnimationFrame(updateCount);
-                    } else {
-                        // Garante que o valor final esteja correto
-                        counter.innerText = target;
-                    }
-                };
-                
-                // Inicia a animação
-                requestAnimationFrame(updateCount);
-            });
-        }
+ hamburger.addEventListener('click', function() {
+        // Obtenha a posição atual antes de qualquer mudança
+        const rect = hamburger.getBoundingClientRect();
+        const topPosition = rect.top;
+        const rightPosition = window.innerWidth - rect.right;
         
-        // Função de suavização para animação mais natural (ease-out)
-        function easeOutQuad(t, b, c, d) {
-            t /= d;
-            return -c * t * (t - 2) + b;
+        // Toggle a classe active
+        nav.classList.toggle('active');
+        
+        // Se o menu estiver ativo, fixe o botão na posição exata onde estava
+        if (nav.classList.contains('active')) {
+            hamburger.style.position = 'fixed';
+            hamburger.style.top = topPosition + 'px';
+            hamburger.style.right = rightPosition + 'px';
+        } else {
+            // Quando fechado, remove os estilos inline
+            hamburger.style.position = '';
+            hamburger.style.top = '';
+            hamburger.style.right = '';
         }
-
-        // Descomente esta linha se quiser que a contagem comece imediatamente sem esperar o scroll
-        // startCounting();
+    });

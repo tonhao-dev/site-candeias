@@ -15,6 +15,10 @@ header{
     align-items: center;
     justify-content: center;
 }
+
+.dropdown-menu li a.link-active{
+    color: var(--cor-primaria);
+}
 hr {
     background: var(--cor-degrade);
     height: 8px;
