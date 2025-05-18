@@ -32,6 +32,7 @@ hr {
     margin: 0 auto 0 auto;
     text-align: center;
     width: fit-content;
+    user-select: none;
 }
 .title-containers h1 {
     margin: 0 0 0 0;
@@ -86,7 +87,7 @@ hr {
 .box-img-member img{
     width: 100%;
     height: 100%;
-    border-radius: 5px;
+    
 }
 .subtitle-apelido h1{
     margin: 0.2rem 0 0 1rem;
@@ -103,6 +104,16 @@ hr {
     font-size: var(--fs-normal);
     font-weight: var(--font-bold);
     color: var(--cor-details);
+}
+.text-nationality{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    gap: 10px;
+}
+.text-nationality img{
+    width:40px;
+    height: 30px;
 }
 .text-nationality h2{
     margin: 0 0 0 0;
@@ -134,6 +145,75 @@ hr {
     margin: 30px 0 0 0;
     padding: 20px 20px 30px 20px;
 }
+.container-content-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+.container-all-informations{
+    width: 100%;
+}
+.container-primary-box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.container-secundary{
+    display: flex;
+    width: 100%;
+    margin: 1.3rem 0 0 0;
+    justify-content: space-around   ;
+}
+.container-secundary h2{
+    margin: 0.2rem 0 0 1rem;
+    font-family: var(--fonte-principal);
+    text-transform: uppercase;
+    font-size: var(--fs-normal);
+    font-weight: var(--font-bold-subtitulo);
+    color: var(--bs-body-color);
+}
+.container-secundary h3{
+    margin: 0.2rem 0 0 1rem;
+    font-family: var(--fonte-principal);
+    text-transform: uppercase;
+    font-size: var(--fs-normal);
+    font-weight: var(--font-bold-texto);
+    color: var(--bs-body-color);
+}
+.container-primary-box h1{
+    margin: 0.2rem 0 0 1rem;
+    font-family: var(--fonte-principal);
+    text-transform: uppercase;
+    font-size: var(--fs-subtitulo);
+    font-weight: var(--font-bold-subtitulo);
+    color: var(--bs-body-color);
+}
+.container-primary-box h3{
+    margin: 0.2rem 0 0 1rem;
+    font-family: var(--fonte-principal);
+    font-size: var(--fs-normal);
+    font-weight: var(--font-bold);
+    color: var(--cor-details);
+}
+
+
+.container-tertiary h2{
+    margin: 1rem 0 0 1rem;
+    font-family: var(--fonte-principal);
+    text-transform: uppercase;
+    font-size: var(--fs-normal);
+    font-weight: var(--font-bold-subtitulo);
+    color: var(--bs-body-color);
+}
+.container-tertiary p{
+    margin: 0.2rem 0 0 1rem;
+    font-family: var(--fonte-);
+    font-size: var(--fs-normal);
+    font-weight: var(--font-bold-texto);
+    color: var(--bs-body-color);
+    text-align: justify;
+}
 .big-division-img{
     margin: 15px 0 0 15px;
 
@@ -161,12 +241,46 @@ hr {
     height: 100%;
     border-radius: 5px;
 }
+@media (max-width: 991px) {
+    .container-primary-box{
+        flex-direction: column;
+        justify-content: start;
+    }
+    
+    .text-nationality{
+        margin: 0.2rem 0 0 1rem;
+        align-items: center ;
+    }
+
+    .text-nationality img{
+        width:28px;
+        height: 20px;
+        
+    }
+    .container-secundary{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .container-tertiary{
+        margin: 18% 0 0 -50%;
+    }
+}
 @media (max-width: 768px) {
     .container-text-member{
         flex-direction: column;
         justify-content: start;
     }
-    .text-nationality{
-        margin: 0.2rem 0 0 1rem;
+    
+    .big-box-member{
+        transform: scale(0.9);
     }
+    .container-secundary{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .container-tertiary{
+        margin: 14% 0 0 -85%;
+    }
+    
 }
