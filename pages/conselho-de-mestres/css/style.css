@@ -65,6 +65,7 @@ hr {
 }
 .division-img-all{
     margin: 8px 0 0 8px;
+    width: fit-content;
 }
 .box-color-img{
     height: 220px;
@@ -131,11 +132,31 @@ hr {
     margin: 30px 0 0 0;
 }
 .simple-member-box{
-    height: 160px;
+    height: auto;
     width: 31%;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin: 0 0 30px 0;
+    margin: 0 0 0 0;
+    padding: 20px;
+    display: flex;
+}
+.simple-color-img{
+    height: 180px;
+    width: 120px;   
+    background-color: var(--cor-primaria);
+    border-radius: 5px; 
+    position: absolute;
+    z-index: 1;
+    margin: -8px 0 0 -8px;
+}
+.simple-img-member{
+    height: 180px;
+    width: 120px;   
+    background-color: gray;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+    border: 5px solid var(--cor-primaria);
 }
 .big-box-member{
     height: auto;
@@ -240,6 +261,78 @@ hr {
     width: 100%;
     height: 100%;
     border-radius: 5px;
+}
+.container-simple-text{
+    display: flex;
+    flex-direction: column;
+}
+.container-simple-primary h2{
+    margin: 0.2rem 0 0 1rem;
+    font-family: var(--fonte-principal);
+    text-transform: uppercase;
+    font-size: var(--fs-normal);
+    font-weight: var(--font-bold-subtitulo);
+    color: var(--bs-body-color);
+}
+.container-simple-primary h3{
+    margin: 0.2rem 0 0 1rem;
+    font-family: var(--fonte-principal);
+    font-size: var(--fs-normal);
+    font-weight: var(--font-bold);
+    color: var(--cor-details);
+}
+
+.container-simple-secundary h2{
+    margin: 0.5rem 0 0 1rem;
+    font-family: var(--fonte-principal);
+    text-transform: uppercase;
+    font-size: var(--fs-normal);
+    font-weight: var(--font-bold-subtitulo);
+    color: var(--bs-body-color);
+}
+.container-simple-secundary h3{
+    margin: 0.2rem 0 0 1rem;
+    font-family: var(--fonte-principal);
+    font-size: var(--fs-normal);
+    font-weight: var(--font-bold-texto);
+    color: var(--cor-fundo);
+}
+.button-saiba-mais p{
+    margin: 0;
+}
+.container-button-nacionality{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    bottom: 0;  
+    margin: 0 0 0 0;
+}
+.flag-member img{
+    height: 30px;
+    width: 40px;
+    margin: 8px 0 0 0 ;
+}
+.button-saiba-mais{
+    width: 160px;
+    height: 35px;
+    margin: 0.5rem 0 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-primaria);
+    font-family: var(--fonte-principal);
+    text-transform: uppercase;
+    font-size: var(--fs-normal);
+    font-weight: var(--font-bold-subtitulo);
+    color: white;
+    border-radius: 5px;
+}
+.container-content-simple{
+    width: 100%;
+    display: flex;
+}
+@media (max-width: 1440px) {
+    
 }
 @media (max-width: 991px) {
     .container-primary-box{
