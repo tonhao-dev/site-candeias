@@ -878,6 +878,7 @@ header {
     .hamburger {
         display: block;
         z-index: 100;
+        position: relative;
     }
 
     .hamburger::after,
@@ -928,8 +929,7 @@ header {
 
     .nav.active .hamburger {
         position: fixed;
-        top: 32px;
-        right: 105px;
+        
         border-top-color: transparent;
     }
 
@@ -1031,7 +1031,8 @@ header {
 
 }
 
-@media screen and (max-width: 605px) {
+
+@media screen and (max-width: 615px) {
     .container-width {
         width: 500px;
     }
@@ -1045,12 +1046,7 @@ header {
         height: 600px;
     }
 
-    .nav.active .hamburger {
-        position: fixed;
-        top: 45px;
-        right: 70px;
-        border-top-color: transparent;
-  }
+
 }
 
 @media screen and (max-width: 515px) {
@@ -1070,18 +1066,14 @@ header {
     }
 }
 
+
+
 /*Tela mobile (425px*/
 @media screen and (max-width: 425px) {
     .container-width {
         max-width: 350px;
     }
 
-    .nav.active .hamburger {
-        position: fixed;
-        top: 32px;
-        right: 60px;
-        border-top-color: transparent;
-    }
 
     .logo img {
         width: 60px;
