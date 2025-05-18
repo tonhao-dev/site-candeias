@@ -1092,12 +1092,15 @@ header {
     .carousel-inner img {
         height: 600px;
         object-fit: cover;
+        
     }
 
     .image-about img,
     .image-philosophy img {
         width: 300px;
     }
+
+    
 
     .data-about h2 {
         text-align: center;

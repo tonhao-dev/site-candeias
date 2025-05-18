@@ -27,11 +27,11 @@ observer.observe(document.querySelector('.stats-container'));
 
 function startCounting() {
     const counters = document.querySelectorAll('.counter');
-    const speed = 10000; // Quanto maior, mais lento (ajustado para ser mais lento)
+    const speed = 5000; // Quanto maior, mais lento (ajustado para ser mais lento)
 
     counters.forEach(counter => {
         const target = +counter.getAttribute('data-target');
-        const duration = 30000; // Duração total da animação em milissegundos
+        const duration = 20000; // Duração total da animação em milissegundos
         const frameDuration = 60; // Duração de cada quadro (para suavidade)
         const totalFrames = duration / frameDuration;
         const incrementPerFrame = target / totalFrames;
@@ -67,11 +67,8 @@ function easeOutQuad(t, b, c, d) {
     return -c * t * (t - 2) + b;
 }
 
-// Descomente esta linha se quiser que a contagem comece imediatamente sem esperar o scroll
-// startCounting();
 
 // Button Voltar ao topo
-// Script para controlar o botão Voltar ao Topo
 document.addEventListener('DOMContentLoaded', function () {
     const backToTopButton = document.getElementById('backToTop');
 
