@@ -59,6 +59,51 @@ section {
     padding-block: 100px 100px;
 }
 
+/*Button voltar ao topo*/
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--cor-secundaria);
+    /* cor azul Bootstrap */
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.back-to-top:hover {
+    background-color: var(--cor-fundo);
+    /* cor azul um pouco mais escura */
+}
+
+/* Ícone de seta para cima usando CSS puro */
+.back-to-top::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-left: 3px solid #fff;
+    border-top: 3px solid #fff;
+    transform: rotate(45deg);
+    margin-top: 4px;
+}
+
+/*Fim button voltar ao topo*/
 /*Barra lateral redes sociais*/
 
 .social-sidebar {
@@ -983,11 +1028,11 @@ header {
     }
 
 
-    
+
 }
 
-@media screen and (max-width: 605px){
-    .container-width{
+@media screen and (max-width: 605px) {
+    .container-width {
         width: 500px;
     }
 
@@ -995,14 +1040,14 @@ header {
     .image-philosophy img {
         width: 300px;
     }
-    
+
     .carousel-inner img {
         height: 600px;
     }
 }
 
-@media screen and (max-width: 515px){
-    .container-width{
+@media screen and (max-width: 515px) {
+    .container-width {
         width: 400px;
     }
 
@@ -1017,6 +1062,7 @@ header {
         width: 400px;
     }
 }
+
 /*Tela mobile (425px*/
 @media screen and (max-width: 425px) {
     .container-width {
