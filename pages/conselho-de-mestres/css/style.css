@@ -126,14 +126,14 @@ hr {
 
 .division-box{
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Define 2 colunas iguais */
     gap: 3.5%;
     flex-wrap: wrap;
     margin: 30px 0 0 0;
 }
 .simple-member-box{
     height: auto;
-    width: 31%;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 0 0 40px 0;
@@ -365,6 +365,10 @@ hr {
     .container-tertiary{
         margin: 18% 0 0 -50%;
     }
+    .division-box{
+        grid-template-columns: repeat(2, 1fr); /* Define 2 colunas iguais */
+
+    }
 }
 @media (max-width: 768px) {
     .container-text-member{
@@ -384,4 +388,47 @@ hr {
         margin: 14% 0 0 -85%;
     }
     
+    .division-box{
+        grid-template-columns: repeat(1, 1fr); /* Define 2 colunas iguais */
+
+    }
+}
+@media (max-width: 575px) {
+    main{
+        text-align: center;
+    }
+    .container-content-text{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-all-informations{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container-primary-box{
+        margin: 15px 0 0 0;
+        text-align: center;
+    }
+    .text-nationality{
+        width: 100%;
+        justify-content: center;
+        margin: 30px 0 10px 0;
+    }
+    .container-secundary{
+        text-align: center;
+        gap: 50px;
+    }
+    .container-tertiary{
+        margin: 20px 0 0 0;
+    }
+    .text-primary{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .text-group{
+        margin: 10px 0 0 0;
+    }
 }
