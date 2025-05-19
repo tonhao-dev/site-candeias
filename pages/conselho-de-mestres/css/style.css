@@ -3,7 +3,7 @@ main{
 }
 section{
     width: 100%;
-    padding-block: 70px 70px;
+    padding-block: 50px 50px;
 }
 header{
     background-color: rgba(0, 0, 0, 10);
@@ -136,7 +136,7 @@ hr {
     height: auto;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin: 0 0 40px 0;
+    margin: 0 0 20px 0;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -366,7 +366,12 @@ hr {
         grid-template-columns: repeat(2, 1fr); /* Define 2 colunas iguais */
         gap: 20px;
     }
-    
+    .simple-member-box{
+        margin: 0;
+    }
+    section{
+        padding-block: 40px 40px;
+    }
     
 }
 @media (max-width: 768px) {
@@ -389,8 +394,11 @@ hr {
     
     .division-box{
         grid-template-columns: repeat(1, 1fr); /* Define 2 colunas iguais */
-        gap: 5px;
+        gap: 30px;
 
+    }
+    .simple-member-box{
+        margin: 0;
     }
     section{
         padding-block: 30px 30px;
