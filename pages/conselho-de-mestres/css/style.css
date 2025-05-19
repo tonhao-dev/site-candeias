@@ -185,7 +185,7 @@ hr {
     display: flex;
     width: 100%;
     margin: 1.3rem 0 0 0;
-    justify-content: space-around   ;
+    justify-content: space-between   ;
 }
 .container-secundary h2{
     margin: 0.2rem 0 0 1rem;
@@ -338,8 +338,9 @@ hr {
     width: 100%;
     display: flex;
 }
-@media (max-width: 1440px) {
-    
+@media (max-width: 1176px) {
+  
+
 }
 @media (max-width: 991px) {
     .container-primary-box{
