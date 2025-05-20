@@ -796,7 +796,7 @@ header {
     padding: 0;
     margin-bottom: 5px;
     color: var(--cor-fundo);
-    font-weight: var(--font-bold);
+    font-weight: 500;
     font-family: var(--fonte-principal);
 }
 
