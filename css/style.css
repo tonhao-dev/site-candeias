@@ -467,6 +467,7 @@ header {
 .title-location h1 {
     font-size: var(--fs-titulo);
     background-image: var(--cor-degrade);
+    font-weight: var(--font-bold-titulo);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0;
@@ -705,6 +706,8 @@ header {
 
 .footer-logo p {
     font-size: var(--fs-pequeno);
+    fon
+    font-family: var(--fonte-principal);
     line-height: 1.4;
     max-width: 200px;
 }
@@ -728,7 +731,7 @@ header {
     color: #FFCC00;
     font-size: var(--fs-normal);
     margin-bottom: 15px;
-    font-weight: var(--font-bold-titulo);
+    font-weight: var(--font-bold);
     text-transform: uppercase;
 }
 
@@ -747,7 +750,7 @@ header {
     color: #fff;
     text-decoration: none;
     font-size: var(--fs-pequeno);
-    font-weight: var(--font-bold);
+    font-weight: 500;
     transition: color 0.3s;
 }
 
@@ -767,7 +770,7 @@ header {
     font-size: 14px;
 
     font-size: var(--fs-pequeno);
-    font-weight: var(--font-bold);
+    font-weight: 500;
     font-family: var(--fonte-principal);
 }
 
@@ -793,7 +796,7 @@ header {
     padding: 0;
     margin-bottom: 5px;
     color: var(--cor-fundo);
-    font-weight: var(--font-bold);
+    font-weight: 500;
     font-family: var(--fonte-principal);
 }
 

@@ -1,3 +1,5 @@
+
+
 .stats-nucleos {
     background-image: url('../../../assets/images/carrosel/slide2.png');
     background-size: cover;
@@ -58,12 +60,11 @@
 }
 
 .data-stats{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 100px;
 
-    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+    margin: 30px 0;
 }
 
 .nucleo-item{
@@ -130,12 +131,7 @@
 
 @media screen and (max-width: 510px){
     .data-stats{
-        display: flex;
-        align-items: center;
-    }
-
-    .nucleo-item{
-        margin: 10px 0;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     
