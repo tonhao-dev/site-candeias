@@ -20,26 +20,32 @@ header{
     color: var(--cor-primaria);
 }
 hr {
-    background: var(--cor-degrade);
-    height: 8px;
+    background-color: var(--cor-primaria);
+    height: 6px;
     opacity: 100;
     border: none;
-    margin: 5px 0 0 0;
+    margin: 10px auto;
     padding: 0;
+    width: 50%;
 }
-
+.color-degrade{
+    background: var(--cor-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .title-containers{
     margin: 0 auto 0 auto;
     text-align: center;
     width: fit-content;
-    user-select: none;
 }
 .title-containers h1 {
     margin: 0 0 0 0;
+  
     font-family: var(--fonte-principal);
     text-transform: uppercase;
     font-size: var(--fs-titulo);
     font-weight: var(--font-bold-titulo);
+    
 }
 .box-information-all{
     height: auto;
@@ -135,12 +141,19 @@ hr {
 .simple-member-box{
     height: auto;
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
     margin: 0 0 20px 0;
     padding: 20px;
     display: flex;
     flex-direction: column;
+    transition: box-shadow 0.5s !important;
+    
 }
+.simple-member-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
 .simple-color-img{
     height: 180px;
     width: 120px;   
@@ -165,7 +178,7 @@ hr {
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 30px 0 0 0;
-    padding: 20px 20px 30px 20px;
+    padding: 30px 40px;
 }
 .container-content-text{
     width: 100%;
@@ -287,7 +300,7 @@ hr {
     margin: 0.5rem 0 0 1rem;
     font-family: var(--fonte-principal);
     text-transform: uppercase;
-    font-size: var(--fs-normal);
+    font-size: var(--fs-pequeno);
     font-weight: var(--font-bold-subtitulo);
     color: var(--bs-body-color);
 }
@@ -442,5 +455,5 @@ hr {
     .text-group{
         margin: 10px 0 0 0;
     }
-  
+    
 }
