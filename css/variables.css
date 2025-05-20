@@ -34,6 +34,7 @@
   /* 🌐 Responsividade: Desktop (largura menor que 768px) */
   @media (max-width: 800px) {
     :root {
+
         --fs-pequeno: 0.875rem;   /* 14px */
         --fs-normal: 1rem;        /* 16px */
         --fs-subtitulo: 1.25rem;     /* 20px */
