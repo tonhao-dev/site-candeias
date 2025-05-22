@@ -246,7 +246,7 @@ header {
     color: var(--cor-primaria) !important;
 }
 
-.dropdown-menu li a:hover{
+.dropdown-menu li a:hover {
     color: var(--cor-secundaria);
     opacity: 100;
 }
@@ -320,20 +320,22 @@ header {
 
 /*Carrosel*/
 
-.carousel-inner img {
-    height: 900px;
-}   
+.carousel {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
 
 /*button next e prev*/
 .data-carousel {
     position: absolute;
     bottom: 20px;
-    right: 300px;
+    right: 20px;
     display: flex;
     gap: 10px;
     z-index: 1;
     padding: 10px 50px;
 }
+
 
 .data-carousel .carousel-control-prev,
 .data-carousel .carousel-control-next {
@@ -371,7 +373,14 @@ header {
 
 .carousel .active {
     background-color: var(--cor-secundaria);
+    border-radius: 5px;
 }
+
+.carousel-indicators,
+.carousel-inner img {
+    border-radius: 5px;
+}
+
 
 .seta-slider {
     color: var(--cor-texto);
@@ -394,20 +403,26 @@ header {
 .stats-container {
     width: 100%;
     background: var(--cor-degrade);
-    padding: 60px 20px;
+    padding: 20px 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     color: white;
     text-align: center;
 }
 
+.stats-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .stat-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin: 10px 50px;
     width: 150px;
     text-align: center;
 }
@@ -706,8 +721,7 @@ header {
 
 .footer-logo p {
     font-size: var(--fs-pequeno);
-    fon
-    font-family: var(--fonte-principal);
+    fon font-family: var(--fonte-principal);
     line-height: 1.4;
     max-width: 200px;
 }
