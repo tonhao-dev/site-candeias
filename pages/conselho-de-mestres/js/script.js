@@ -47,3 +47,64 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+// Dados dos mestres
+const mestres = {
+    sarara: {
+        nome: "Mestre Sarará",
+        apelido: "Nome",
+        atuacao: "Rio Branco - Acre - (Brasil)",
+        nacionalidade: "Nacionalidade",
+        img: "../../assets/images/conselho-mestres/Membros/sarara.png",
+        bandeira: "../../assets/images/conselho-mestres/Nacionalidades/Bandeira-Brasil.png",
+        historia: "Mestre Sarará é um capoeirista renomado, atuando há anos no desenvolvimento da cultura da capoeira no Acre e em todo o Brasil."
+    },
+    // Adicione outros mestres aqui
+};
+
+// Seletores
+const botoes = document.querySelectorAll('.button-saiba-mais');
+const modal = document.getElementById('modal');
+const closeModal = document.querySelector('.close-modal');
+
+// Elementos dentro do modal
+const modalImg = document.getElementById('modal-img');
+const modalNome = document.getElementById('modal-nome');
+const modalApelido = document.getElementById('modal-apelido');
+const modalAtuacao = document.getElementById('modal-atuacao');
+const modalNacionalidade = document.getElementById('modal-nacionalidade');
+const modalBandeira = document.getElementById('modal-bandeira');
+const modalHistoria = document.getElementById('modal-historia');
+
+// Evento para cada botão
+botoes.forEach(botao => {
+    botao.addEventListener('click', () => {
+        const id = botao.id;
+        const mestre = mestres[id];
+
+        if (mestre) {
+            // Preencher dados do modal
+            modalImg.src = mestre.img;
+            modalNome.textContent = mestre.nome;
+            modalApelido.textContent = mestre.apelido;
+            modalAtuacao.textContent = mestre.atuacao;
+            modalNacionalidade.textContent = mestre.nacionalidade;
+            modalBandeira.src = mestre.bandeira;
+            modalHistoria.textContent = mestre.historia;
+
+            // Abrir modal
+            modal.style.display = 'flex';
+        }
+    });
+});
+
+// Fechar o modal
+closeModal.addEventListener('click', () => {
+    modal.style.display = 'none';
+});
+
+// Fechar ao clicar fora da caixa
+window.addEventListener('click', (e) => {
+    if (e.target === modal) {
+        modal.style.display = 'none';
+    }
+});
