@@ -203,12 +203,10 @@ header {
 
 }
 
-/* Dropdown container */
 .dropdown {
     position: relative;
 }
 
-/* Esconde o menu inicialmente */
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -222,7 +220,6 @@ header {
     z-index: 100;
 }
 
-/* Itens do dropdown */
 .dropdown-menu li a {
     display: block;
     padding: 8px 20px;
@@ -237,7 +234,6 @@ header {
     font-size: var(--fs-normal);
 }
 
-/* Hover para mostrar o dropdown */
 .dropdown:hover .dropdown-menu {
     display: block;
 }
@@ -413,9 +409,7 @@ header {
 }
 
 .stats-container div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .stat-item {
@@ -878,6 +872,9 @@ header {
 /*Tela tablet (768px)*/
 @media screen and (max-width: 768px) {
 
+    .stats-container div{
+        grid-template-columns: repeat(2, 1fr);
+    }
     .logo img {
         width: 80px;
         height: 80px;
@@ -1071,6 +1068,15 @@ header {
 }
 
 @media screen and (max-width: 515px) {
+
+    .stats-container div {
+        grid-template-columns: repeat(1, 1fr);
+
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+
     .container-width {
         width: 400px;
     }
@@ -1086,9 +1092,7 @@ header {
         width: 400px;
     }
 
-    .carousel-inner img {
-        height: 800px;
-    }
+    
 }
 
 
@@ -1113,11 +1117,7 @@ header {
         height: 50px;
     }
 
-    .carousel-inner img {
-        height: 600px;
-        object-fit: cover;
 
-    }
 
     .image-about img,
     .image-philosophy img {
