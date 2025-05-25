@@ -46,7 +46,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
-
 // Dados dos mestres
 const mestres = {
     sarara: {
@@ -56,7 +55,31 @@ const mestres = {
         nacionalidade: "Nacionalidade",
         img: "../../assets/images/conselho-mestres/Membros/sarara.png",
         bandeira: "../../assets/images/conselho-mestres/Nacionalidades/Bandeira-Brasil.png",
-        historia: "Mestre Sarará é um capoeirista renomado, atuando há anos no desenvolvimento da cultura da capoeira no Acre e em todo o Brasil."
+        historia: "Mestre Sarará é um capoeirista renomado, atuando há anos no desenvolvimento da cultura da capoeira no Acre e em todo o Brasil.",
+        inicio: "Ano ou data de início",
+        nucleo: "Nome do núcleo"
+    },
+    xoroquinho: {
+        nome: "Mestre Xoroquinho",
+        apelido: "Nome",
+        atuacao: "Rio Branco - Acre - (Brasil)",
+        nacionalidade: "Nacionalidade",
+        img: "../../assets/images/conselho-mestres/Membros/#",
+        bandeira: "../../assets/images/conselho-mestres/Nacionalidades/Bandeira-Brasil.png",
+        historia: "Mestre Sarará é um capoeirista renomado, atuando há anos no desenvolvimento da cultura da capoeira no Acre e em todo o Brasil.",
+        inicio: "Ano ou data de início",
+        nucleo: "Nome do núcleo"
+    },
+    piau: {
+        nome: "Mestre Piáu",
+        apelido: "Nome",
+        atuacao: "Rio Branco - Acre - (Brasil)",
+        nacionalidade: "Nacionalidade",
+        img: "../../assets/images/conselho-mestres/Membros/piau.png",
+        bandeira: "../../assets/images/conselho-mestres/Nacionalidades/Bandeira-Brasil.png",
+        historia: "Mestre Sarará é um capoeirista renomado, atuando há anos no desenvolvimento da cultura da capoeira no Acre e em todo o Brasil.",
+        inicio: "Ano ou data de início",
+        nucleo: "Nome do núcleo"
     },
     // Adicione outros mestres aqui
 };
@@ -74,15 +97,16 @@ const modalAtuacao = document.getElementById('modal-atuacao');
 const modalNacionalidade = document.getElementById('modal-nacionalidade');
 const modalBandeira = document.getElementById('modal-bandeira');
 const modalHistoria = document.getElementById('modal-historia');
+const modalInicio = document.getElementById('modal-inicio');
+const modalNucleo = document.getElementById('modal-nucleo');
 
-// Evento para cada botão
+// Evento para abrir modal
 botoes.forEach(botao => {
     botao.addEventListener('click', () => {
         const id = botao.id;
         const mestre = mestres[id];
 
         if (mestre) {
-            // Preencher dados do modal
             modalImg.src = mestre.img;
             modalNome.textContent = mestre.nome;
             modalApelido.textContent = mestre.apelido;
@@ -90,19 +114,20 @@ botoes.forEach(botao => {
             modalNacionalidade.textContent = mestre.nacionalidade;
             modalBandeira.src = mestre.bandeira;
             modalHistoria.textContent = mestre.historia;
+            modalInicio.textContent = mestre.inicio;
+            modalNucleo.textContent = mestre.nucleo;
 
-            // Abrir modal
             modal.style.display = 'flex';
         }
     });
 });
 
-// Fechar o modal
+// Fechar modal
 closeModal.addEventListener('click', () => {
     modal.style.display = 'none';
 });
 
-// Fechar ao clicar fora da caixa
+// Fechar clicando fora
 window.addEventListener('click', (e) => {
     if (e.target === modal) {
         modal.style.display = 'none';

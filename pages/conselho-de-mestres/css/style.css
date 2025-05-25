@@ -9,6 +9,7 @@ header{
     background-color: rgba(0, 0, 0, 10);
 
 }
+
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -33,6 +34,7 @@ header{
     animation: fadeIn 0.4s ease;
     box-shadow: 0 8px 20px rgba(0,0,0,0.3);
     transition: transform 0.3s ease;
+    z-index: 1;
 }
 
 
@@ -43,14 +45,24 @@ header{
 
 .close-modal {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    top: 5%;
+    left: 4%;
     background: none;
     border: none;
     font-size: 28px;
     cursor: pointer;
-    color: #333;
+    color: white;
     transition: color 0.2s ease;
+    background-color: var(--cor-secundaria);
+    z-index: 2000;
+    border-radius: 5px;
+    padding: 3px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--fs-subtitulo);
+    font-weight: var(--font-bold-titulo);
+    border: 2px solid #530b02;
 }
 
 .close-modal:hover {
@@ -461,9 +473,14 @@ hr {
         gap: 15px;
     }
     .container-tertiary{
-        margin: 16% 0 0 -60%;
+        margin: 16% 0 0 -58%;
     }
-    
+    .container-tertiary h2{
+        margin: 0 0 -2rem 1.5rem;
+    }
+    .container-tertiary p{
+        margin: 2rem 0 0 1.5rem;
+    }
     .division-box{
         grid-template-columns: repeat(1, 1fr); /* Define 2 colunas iguais */
         gap: 30px;
