@@ -353,6 +353,23 @@ header {
     /* Remove a transparência padrão do Bootstrap */
 }
 
+.carousel-caption a {
+    font-size: var(--fs-titulo);
+    padding-right: 10px;
+    text-shadow: 1px 1px 2px #333;
+}
+
+.carousel-caption i {
+    font-size: var(--fs-normal);
+    text-shadow: 1px 1px 2px #333;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.carousel-caption i:hover {
+    padding-left: 5px;
+}
+
 /* Telas médias */
 @media (max-width: 1024px) {
     .data-carousel {
@@ -360,12 +377,7 @@ header {
     }
 }
 
-/* Telas pequenas */
-@media (max-width: 768px) {
-    .data-carousel {
-        right: 20px;
-    }
-}
+
 
 .carousel .active {
     background-color: var(--cor-secundaria);
@@ -396,11 +408,12 @@ header {
 
 /*Numero do candeias*/
 
-.stats-container {
+.stats-container{
     width: 100%;
     background: var(--cor-degrade);
     padding: 20px 20px;
     display: flex;
+    
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -715,7 +728,7 @@ header {
 
 .footer-logo p {
     font-size: var(--fs-pequeno);
-    fon font-family: var(--fonte-principal);
+    font-family: var(--fonte-principal);
     line-height: 1.4;
     max-width: 200px;
 }
@@ -825,7 +838,6 @@ header {
 /*Fim footer*/
 
 /*Responsividade*/
-
 /*Tela 1440px (desktop)*/
 @media screen and (max-width: 1440px) {
     .data-carousel {
@@ -838,7 +850,7 @@ header {
 @media screen and (max-width: 1024px) {
 
     .container-width {
-        max-width: 800px;
+        max-width: 900px;
         margin: 0 auto;
     }
 
@@ -848,6 +860,14 @@ header {
 
     }
 
+    .stats-container div {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .stat-item {
+        width: 100px;
+    }
+
     .data-carousel .carousel-control-prev,
     .data-carousel .carousel-control-next {
         width: 16px;
@@ -855,9 +875,9 @@ header {
 
     }
 
-    .carousel-inner img {
-        height: 500px;
-        object-fit: cover;
+    .carousel {
+        margin-top: 120px;
+        margin-bottom: 50px;
     }
 
     .image-about img {
@@ -872,9 +892,19 @@ header {
 /*Tela tablet (768px)*/
 @media screen and (max-width: 768px) {
 
-    .stats-container div{
-        grid-template-columns: repeat(2, 1fr);
+    .stats-container div {
+        grid-template-columns: repeat(4, 1fr);
     }
+
+    .stat-item {
+        margin: 10px 10px;
+    }
+
+    .carousel-inner img {
+        height: 300px;
+        object-fit: cover;
+    }
+
     .logo img {
         width: 80px;
         height: 80px;
@@ -888,7 +918,7 @@ header {
     }
 
     .container-width {
-        max-width: 600px;
+        max-width: 700px;
     }
 
 
@@ -981,30 +1011,10 @@ header {
     }
 
     .data-carousel {
-        position: absolute;
-        bottom: 50%;
-        /* Alterado: agora posiciona no meio vertical */
-        transform: translateY(50%);
-        /* Centraliza perfeitamente */
-        right: 0;
-        left: 0;
-        display: flex;
-        justify-content: space-between;
-        padding: 10px 15px;
-        gap: 0;
-        height: 0;
-        /* Removendo altura para não afetar o layout */
+        right: 10px;
+        gap: 30px;
     }
 
-    .data-carousel .carousel-control-prev {
-        position: relative;
-        left: 0;
-    }
-
-    .data-carousel .carousel-control-next {
-        position: relative;
-        right: 0;
-    }
 
     .content-about {
         flex-direction: column;
@@ -1051,20 +1061,13 @@ header {
 
 @media screen and (max-width: 615px) {
     .container-width {
-        width: 500px;
+        width: 580px;
     }
 
     .image-about img,
     .image-philosophy img {
         width: 300px;
     }
-
-    .carousel-inner img {
-        height: 600px;
-    }
-
-
-
 }
 
 @media screen and (max-width: 515px) {
@@ -1076,9 +1079,12 @@ header {
         margin: 0 auto;
     }
 
+    .data-carousel {
+        display: none;
+    }
 
     .container-width {
-        width: 400px;
+        width: 500px;
     }
 
     .footer-bottom {
@@ -1092,7 +1098,7 @@ header {
         width: 400px;
     }
 
-    
+
 }
 
 
@@ -1100,7 +1106,7 @@ header {
 /*Tela mobile (425px*/
 @media screen and (max-width: 425px) {
     .container-width {
-        max-width: 350px;
+        max-width: 400px;
     }
 
 
@@ -1117,15 +1123,15 @@ header {
         height: 50px;
     }
 
+    .carousel-inner img {
+        height: 300px;
+        object-fit: cover;
+    }
 
 
     .image-about img,
     .image-philosophy img {
         width: 300px;
-    }
-
-    .carousel-inner img {
-        height: 800px;
     }
 
     .data-about h2 {

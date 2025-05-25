@@ -124,18 +124,23 @@
     font-weight: var(--font-bold-titulo);
 }
 
+.title-location h1,
+.subtitle-location h2 {
+    text-align: center;
+}
 /*Responsividade*/
 
 /*Tela Tablet*/
 @media screen and (max-width: 768px){
     .data-stats{
-        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width: 510px){
     .data-stats{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 10px;
     }
 
     
