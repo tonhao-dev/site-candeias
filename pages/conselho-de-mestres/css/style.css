@@ -437,9 +437,13 @@ hr {
     .container-secundary{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
     .container-tertiary{
         margin: 20% 0 0 -55%;
+    }
+    .modal-historia{
+        margin: 15% 0 0 -35%;
     }
     .division-box{
         grid-template-columns: repeat(2, 1fr); /* Define 2 colunas iguais */
@@ -457,6 +461,21 @@ hr {
         gap: 10px;
     }
     
+}
+@media (max-width: 945px) {
+    .modal-historia{
+        margin: 15% 0 0 -40%;
+    }
+}
+@media (max-width: 890px) {
+    .modal-historia{
+        margin: 13% 0 0 -45%;
+    }
+}
+@media (max-width: 800px) {
+    .modal-historia{
+        margin: 20% 0 0 -51%;
+    }
 }
 @media (max-width: 769px) {
     .container-text-member{
@@ -492,19 +511,54 @@ hr {
     section{
         padding-block: 30px 30px;
     }
+    
+    
 }
-@media (max-width: 767px){
-    .container-tertiary{
-        margin: 12% 0 0 -95%;
-    }
-    .container-tertiary h2{
-        margin: 0;
-    }
-    .container-tertiary p{
-        margin: 0;
+    @media (max-width: 767px){
+        .container-tertiary{
+            margin: 12% 0 0 -100%;
+        }
+        .container-tertiary h2{
+            margin: 0;
+        }
+        .container-tertiary p{
+            margin: 0;
 
-    }
+        }
+        .modal-historia{
+            margin: 20% 0 0 -48%;
+        }
 
+}
+@media (max-width: 747px){
+    .modal-historia{
+        margin: 20% 0 0 -51%;
+    }
+}
+@media (max-width: 700px){
+    .modal-historia{
+        margin: 21% 0 0 -55%;
+    }
+}
+@media (max-width: 670px){
+    .modal-historia{
+        margin: 21% 0 0 -60%;
+    }
+}
+@media (max-width: 650px){
+    .modal-historia{
+        margin: 21% 0 0 -65%;
+    }
+}
+@media (max-width: 620px){
+    .modal-historia{
+        margin: 25% 0 0 -74%;
+    }
+}
+@media (max-width: 597px){
+    .modal-historia{
+        margin: 25% 0 0 -74%;
+    }
 }
 @media (max-width: 575px) {
     main{
@@ -575,6 +629,25 @@ hr {
     }
     .container-simple-secundary h3{
         margin-left: 0.5rem;
+    }
+
+    .container-start h2{
+        margin: 0;
+    }
+    .container-start h3{
+        margin: 0;
+    }
+    .container-core h2{
+        margin: 0;
+    }
+    .container-core h3{
+        margin: 0;
+    }
+    .container-act h2{
+        margin: 0;
+    }
+    .container-act h3{
+        margin: 0;
     }
 }
 @media (max-width: 374px) {
