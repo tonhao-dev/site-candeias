@@ -9,7 +9,9 @@ header{
     background-color: rgba(0, 0, 0, 10);
 
 }
-
+.section-primary{
+    margin-top: -70px;
+}
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -42,27 +44,27 @@ header{
     from {opacity: 0; transform: scale(0.95);}
     to {opacity: 1; transform: scale(1);}
 }
-
+.botao-fechar-modal{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin:  -10px 0 20px 0;
+}
 .close-modal {
-    position: absolute;
-    top: 5%;
-    left: 4%;
+    justify-items: end;
     background: none;
-    border: none;
     font-size: 28px;
     cursor: pointer;
-    color: white;
+    color: var(--cor-fundo);
     transition: color 0.2s ease;
-    background-color: var(--cor-secundaria);
+    background-color: transparent;
     z-index: 2000;
-    border-radius: 5px;
     padding: 3px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: var(--fs-subtitulo);
     font-weight: var(--font-bold-titulo);
-    border: 2px solid #530b02;
 }
 
 .close-modal:hover {
@@ -107,28 +109,10 @@ hr {
     font-weight: var(--font-bold-titulo);
     
 }
-.box-information-all{
-    height: auto;
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin: 30px 0 30px 0;
-    padding: 20px;
-    display: flex;
-}
-.container-content-member{
-    display: flex;
-    width: 100%;
-}
-.container-text-member{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-.text-primary{
-    display: flex;
-    width: 100%;
-}
+
+
+
+
 .division-img-all{
     margin: 8px 0 0 8px;
     width: fit-content;
@@ -511,7 +495,9 @@ hr {
     section{
         padding-block: 30px 30px;
     }
-    
+    .close-modal{
+        font-size: 30px;
+    }
     
 }
     @media (max-width: 767px){
@@ -598,9 +584,7 @@ hr {
     .text-group{
         margin: 10px 0 0 0;
     }
-    .box-information-all{
-        width: 80%;
-    }
+    
     .big-box-member{
         width: 80%;
         margin: 20px auto;
@@ -651,9 +635,7 @@ hr {
     }
 }
 @media (max-width: 374px) {
-    .box-information-all{
-        width: 90%;
-    }
+   
     .big-box-member{
         width: 95%;
     }
