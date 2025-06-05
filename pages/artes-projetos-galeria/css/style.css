@@ -1,0 +1,83 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.container-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+    margin: 15%;
+}
+.container-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 5px;
+}
+.container-one h1{
+    width: max-content;
+    flex-wrap: nowrap;
+    font-weight: var(--font-bold-titulo);
+}
+.container-two h1{
+    width: max-content;
+    flex-wrap: nowrap;
+    font-weight: var(--font-bold-titulo);
+
+}
+.container-three h1{
+    width: max-content;
+    flex-wrap: nowrap;
+    font-weight: var(--font-bold-titulo);
+
+}
+.container-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 5px;
+
+}
+.container-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 5px;
+
+}
+.botao-acesso{
+    background-color: var(--cor-primaria);
+    border-radius: 5px;
+    padding: 10px 80px;
+    width: 350px;
+    height: fit-content;
+    cursor: pointer;
+    transition: .4s all;
+    display: flex;
+    gap: 10px;
+    
+}
+.botao-acesso:hover{
+    background-color: rgb(227, 167, 3);
+}
+.botao-acesso:hover i{
+    padding-left: 10px;}
+
+.botao-acesso i{
+    color: white;
+    font-weight: 800;
+}
+.texto-botao{
+    font-family:var(--font-principal);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: var(--font-bold-subtitulo);
+    color: white;
+}
