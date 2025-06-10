@@ -1058,6 +1058,18 @@ header {
 
 }
 
+@media screen and (max-width: 716px){
+    .container-width{
+        width: 650px;
+    }
+}
+
+
+@media screen and (max-width: 662px){
+    .container-width{
+        width: 550px;
+    }
+}
 
 @media screen and (max-width: 615px) {
     .container-width {
@@ -1070,13 +1082,25 @@ header {
     }
 }
 
+@media screen and (max-width: 590px){
+    .container-width{
+        width: 500px;
+    }
+
+    .stats-container div {
+        grid-template-columns: repeat(2, 1fr);
+        
+        justify-items: center;
+    }
+}
+
+
 @media screen and (max-width: 515px) {
 
     .stats-container div {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
 
-        padding: 10px;
-        margin: 0 auto;
+        justify-items: center;
     }
 
     .data-carousel {
@@ -1084,7 +1108,7 @@ header {
     }
 
     .container-width {
-        width: 500px;
+        width: 450px;
     }
 
     .footer-bottom {
@@ -1101,7 +1125,11 @@ header {
 
 }
 
-
+@media screen and (max-width: 460px){
+    .container-width{
+        width: 410px;
+    }
+}
 
 /*Tela mobile (425px*/
 @media screen and (max-width: 425px) {
@@ -1156,7 +1184,7 @@ header {
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .container-width {
         width: 300px;
     }
