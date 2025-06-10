@@ -171,8 +171,8 @@ hr {
 .text-nationality h2{
     margin: 0 0 0 0;
     font-family: var(--fonte-principal);
-    font-size: var(--fs-normal);
-    text-transform: uppercase;
+    font-size: var(--fs-pequeno);
+    
     font-weight: var(--font-bold);
     color: var(--bs-body-color);
 }
@@ -255,17 +255,17 @@ hr {
 .container-secundary h2{
     margin: 0.2rem 0 0 1rem;
     font-family: var(--fonte-principal);
-    text-transform: uppercase;
+   
     font-size: var(--fs-normal);
-    font-weight: var(--font-bold-subtitulo);
+    font-weight: 800;
     color: var(--bs-body-color);
 }
 .container-secundary h3{
     margin: 0.2rem 0 0 1rem;
     font-family: var(--fonte-principal);
-    text-transform: uppercase;
-    font-size: var(--fs-normal);
-    font-weight: var(--font-bold-texto);
+    
+    font-size: var(--fs-pequeno);
+    font-weight: var(--font-bold);
     color: var(--bs-body-color);
 }
 .container-primary-box h1{
@@ -288,16 +288,18 @@ hr {
 .container-tertiary h2{
     margin: 1rem 0 0 1rem;
     font-family: var(--fonte-principal);
-    text-transform: uppercase;
+    
     font-size: var(--fs-normal);
-    font-weight: var(--font-bold-subtitulo);
+    font-weight: 800;
     color: var(--bs-body-color);
 }
 .container-tertiary p{
     margin: 0.2rem 0 0 1rem;
-    font-size: var(--fs-normal);
-    font-weight: var(--font-bold-texto);
+    font-size: var(--fs-pequeno);
+   
+    font-weight: normal;
     color: var(--bs-body-color);
+    font-family: var(--fonte-principal);
     text-align: justify;
 }
 .big-division-img{
@@ -350,16 +352,16 @@ hr {
 .container-simple-secundary h2{
     margin: 0.5rem 0 0 1rem;
     font-family: var(--fonte-principal);
-    text-transform: uppercase;
-    font-size: var(--fs-button);
-    font-weight: var(--font-bold-subtitulo);
+    
+    font-size: var(--fs-pequeno);
+    font-weight: 800;
     color: var(--bs-body-color);
 }
 .container-simple-secundary h3{
     margin: 0.2rem 0 0 1rem;
     font-family: var(--fonte-principal);
     font-size: var(--fs-pequeno);
-    font-weight: var(--font-bold-texto);
+    font-weight: 600;
     color: var(--cor-fundo);
 }
 .button-saiba-mais p{

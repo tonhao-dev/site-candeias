@@ -1,0 +1,35 @@
+a {
+    color: #fff !important;
+}
+
+header {
+    background-color: #212121 !important;
+}
+
+
+.title-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 150px 0;
+}
+
+.title-principal h1{
+    font-size: var(--fs-titulo);
+    background-image: var(--cor-degrade);
+    font-weight: var(--font-bold-titulo);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.title-principal hr {
+    background-color: var(--cor-primaria);
+    opacity: 100;
+    width: 100px;
+    height: 5px;
+    border: none;
+}
