@@ -1,10 +1,11 @@
 main{
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 .container-content{
     display: flex;
-    margin-top: 1%;
+    margin-top: 12%;
     width: 100%;
 }
 .container-one{
@@ -55,6 +56,9 @@ main{
     font-weight: var(--font-bold-subtitulo);
     color: white;
 }
+@media screen and (max-width: 1024px) {
+
+}
 
 @media screen and (max-width: 889px) {
     .container-content{
@@ -64,6 +68,9 @@ main{
     
 }
 @media screen and (max-width: 768px) {
+    main{
+        margin-bottom: 0px;
+    }
     .container-content{
         margin: 20% 0;
        
@@ -88,7 +95,6 @@ main{
         margin-top: 40%;
        
     } 
-    .container-content h1{
-    }
+    
 }
 
