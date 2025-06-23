@@ -2,7 +2,7 @@ main{
     margin-top: 8%;
 }
 header{
-        background-color: rgba(21, 21, 21, 1);
+        background-color: #212121;
 }
 .title-containers{
     margin: 0 auto 0 auto;
@@ -27,9 +27,7 @@ hr {
     padding: 0;
     width: 50%;
 }
-a{
-    color: #ffff !important;
-}
+
 .container-calendar{
     margin-top: 50px;
     margin-bottom: 100px;
