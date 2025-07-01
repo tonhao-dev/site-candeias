@@ -37,7 +37,7 @@ hr {
     align-items: center;
 }
 iframe{
-    width: 100%;
+    width: 85%;
     height: 700px;
 }
 @media (max-width: 1300px) {
