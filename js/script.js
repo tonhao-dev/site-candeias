@@ -1,4 +1,8 @@
-AOS.init();
+document.addEventListener('DOMContentLoaded', function () {
+    AOS.init({
+        once: true // Faz a animação ocorrer apenas uma vez após carregar a página
+    });
+});
 // Menu  hamburger
 const hamburger = document.querySelector(".hamburger");
 const nav = document.querySelector(".nav");
