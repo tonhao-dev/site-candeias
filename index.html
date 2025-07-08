@@ -59,67 +59,28 @@
 
     <div id="carouselExampleIndicators" class="carousel slide container-width">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="5000">
-                <img src="assets/images/carrosel/slide1.png" class="d-block w-100" alt="...">
-                <!-- <div class="carousel-caption d-flex align-self-end">
-                    <div class="button-slider d-flex justify-content-evenly align-self-end">
-                        <a href="#">Evento <i class="ri-arrow-right-line"></i></a>
-                    </div>
-                </div> -->
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <img src="assets/images/carrosel/slide2.png" class="d-block w-100" alt="...">
-                <!-- <div class="carousel-caption d-flex align-self-end">
-                    <div class="button-slider d-flex justify-content-evenly align-self-end">
-                        <a href="#">Evento <i class="ri-arrow-right-line"></i></a>
-                    </div>
-                </div> -->
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <img src="assets/images/carrosel/slide3.png" class="d-block w-100" alt="...">
-                <!-- <div class="carousel-caption d-flex align-self-end">
-                    <div class="button-slider d-flex justify-content-evenly align-self-end">
-                        <a href="#">Evento <i class="ri-arrow-right-line"></i></a>
-                    </div>
-                </div> -->
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <img src="assets/images/carrosel/slide4.png" class="d-block w-100" alt="...">
-                <!-- <div class="carousel-caption d-flex align-self-end">
-                    <div class="button-slider d-flex justify-content-evenly align-self-end">
-                        <a href="#">Evento <i class="ri-arrow-right-line"></i></a>
-                    </div>
-                </div> -->
-            </div>
         </div>
 
-        <div class="data-carousel container-width">
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="seta-slider" aria-hidden="true">
-                    <i class="ri-arrow-left-s-line"></i>
-                </span>
-                <span class="visually-hidden">Previous</span>
+        <div class="carousel-inner"></div>
+    </div>
 
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="seta-slider" aria-hidden="true">
-                    <i class="ri-arrow-right-s-line"></i>
-                </span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+    <div class="data-carousel">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="seta-slider" aria-hidden="true">
+                <i class="ri-arrow-left-s-line"></i>
+            </span>
+            <span class="visually-hidden">Previous</span>
+
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="seta-slider" aria-hidden="true">
+                <i class="ri-arrow-right-s-line"></i>
+            </span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
     </div>
 
@@ -264,23 +225,21 @@
     <div class="social-sidebar" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
         <a href="https://www.instagram.com/candeiascapoeira?igsh=MWU0dGUwbTk5ZTVpcg==" class="social-icon instagram"
             target="_blank"><i class="ri-instagram-line"></i>
-        <span class="social-label">Instagram</span>
+            <span class="social-label">Instagram</span>
         </a>
         <a href="https://youtube.com/@tvcandeiascapoeira?si=mwPG56hXnOBOdYR_" class="social-icon youtube"
             target="_blank"><i class="ri-youtube-line"></i>
-        <span class="social-label">YouTube</span>
+            <span class="social-label">YouTube</span>
         </a>
         <a href="https://open.spotify.com/intl-pt/artist/6e1PWwMRTJV32uYOJiLWjg?si=W3lxjywXQB2WylMaHVDR7g"
-            class="social-icon spotify"
-            target="_blank"
-            >
+            class="social-icon spotify" target="_blank">
             <i class="ri-spotify-line"></i>
             <span class="social-label">Spotify</span>
         </a>
         <a href="https://music.youtube.com/channel/UC2KNsKp3u7XMrsizZiTQKyA?si=FwpVhd4lpNEuNNJp"
             class="social-icon youtube-music" target="_blank">
             <i class="ri-music-fill"></i>
-              <span class="social-label">YouTube Music</span>
+            <span class="social-label">YouTube Music</span>
         </a>
         <!--fim da barra lateral-->
     </div>
@@ -343,18 +302,14 @@
     </footer>
     <!--Fim Rodape-->
 
-
-
-
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo da página"></button>
 
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>
 
-    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo da página"></button>
-
-
+    <script src="./js/carrosel.js"></script>
 </body>
 
 </html>
