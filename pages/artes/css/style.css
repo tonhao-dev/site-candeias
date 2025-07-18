@@ -25,6 +25,7 @@ main::after {
   width: 100%;
   z-index: 5;
 }
+
 .container-one {
   display: flex;
   flex-direction: column;
@@ -74,6 +75,7 @@ main::after {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #fff;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 1024px) {
