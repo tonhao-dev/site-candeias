@@ -4,7 +4,7 @@ import { renderizaModal } from './renderizaModal.js';
 
 renderizaMestres('branca', dadosMestres.branca);
 renderizaMestres('brancaVermelha', dadosMestres.brancaVermelha);
-renderizaMestres('vermelha', dadosMestres.brancaVermelha);
+renderizaMestres('vermelha', dadosMestres.vermelha);
 
 document.addEventListener('DOMContentLoaded', function () {
     AOS.init({
