@@ -53,8 +53,7 @@ main{
     font-family:var(--font-principal);
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-weight: var(--font-bold-subtitulo);
-    color: white;
+    color: black;
 }
 @media screen and (max-width: 1024px) {
 
