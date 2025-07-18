@@ -1,5 +1,6 @@
 main{
     margin: 120px 0 0 0;
+    padding-bottom: 16rem;
 }
 section{
     width: 100%;
@@ -344,7 +345,7 @@ hr {
 .container-simple-primary h3{
     margin: 0.2rem 0 0 1rem;
     font-family: var(--fonte-principal);
-    font-size: var(--fs-normal);
+    font-size: var(--fs-button);
     font-weight: var(--font-bold);
     color: var(--cor-details);
 }
@@ -352,15 +353,14 @@ hr {
 .container-simple-secundary h2{
     margin: 0.5rem 0 0 1rem;
     font-family: var(--fonte-principal);
-    
-    font-size: var(--fs-pequeno);
+    font-size: 12px;
     font-weight: 800;
     color: var(--bs-body-color);
 }
 .container-simple-secundary h3{
     margin: 0.2rem 0 0 1rem;
     font-family: var(--fonte-principal);
-    font-size: var(--fs-pequeno);
+    font-size: 12px;
     font-weight: 600;
     color: var(--cor-fundo);
 }
@@ -552,6 +552,7 @@ hr {
 @media (max-width: 575px) {
     main{
         text-align: center;
+        padding-bottom: 0rem;
     }
     .container-content-text{
         flex-direction: column;

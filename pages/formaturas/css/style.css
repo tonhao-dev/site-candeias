@@ -344,7 +344,7 @@ hr {
 .container-simple-primary h3{
     margin: 0.2rem 0 0 1rem;
     font-family: var(--fonte-principal);
-    font-size: var(--fs-normal);
+    font-size: var(--fs-button);
     font-weight: var(--font-bold);
     color: var(--cor-details);
 }
