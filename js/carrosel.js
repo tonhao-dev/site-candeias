@@ -1,7 +1,6 @@
 async function fetchCarrosselImages() {
   const response = await fetch('https://raw.githubusercontent.com/tonhao-dev/site-candeias-imagens/refs/heads/main/config.txt');
   const fileData = await response.text();
-
   const rows = fileData.split('\n');
 
   const imagesURLs = rows.filter(row => row.trim() !== '')
