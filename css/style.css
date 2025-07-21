@@ -215,6 +215,7 @@ header {
     left: 0;
     z-index: 999;
     backdrop-filter: blur(2px);
+    background-color: #212121 !important;
 }
 
 .nav {
