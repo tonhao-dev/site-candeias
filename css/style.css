@@ -692,11 +692,61 @@ header {
     margin: 50px 0;
 }
 
-.mapa-nucleos iframe {
+.mapa-nucleos span {
+    display: block;
+    background-image: url('../assets/images/nucleos/nucleos.png');
     width: 100%;
-    height: 650px;
-    border: 0;
-    outline: none;
+    height: 911px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.mapa-nucleos span::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+}
+
+.mapa-nucleos span::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(0px);
+}
+
+.mapa-nucleos span .button-about {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: 5;
+    opacity: 0;
+}
+
+.mapa-nucleos:hover span::before {
+    opacity: 0.8;
+    transition: opacity 0.8s ease;
+}
+
+.mapa-nucleos:hover span .button-about {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.mapa-nucleos:hover span::after {
+    backdrop-filter: blur(2px);
+    transition: backdrop-filter 0.3s ease;
 }
 
 /* Centraliza a logo no meio do mapa */
@@ -1158,7 +1208,7 @@ header {
 }
 
 /*Tela mobile (425px*/
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     .container-width {
         max-width: 400px;
     }
@@ -1207,7 +1257,9 @@ header {
         width: 300px;
     }
 
-
+    .social-sidebar {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 375px) {
