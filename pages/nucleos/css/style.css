@@ -1,13 +1,11 @@
-
-
 .stats-nucleos {
-    background-image: url('../../../assets/images/carrosel/slide2.png');
+    background-image: url('../../../assets/images/nucleos/nucleos.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 1000px;
-    background-color: rgba(0, 0, 0, 0.5);
+    height: calc(100vh - 60px);
+    background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: darken;
     display: flex;
     justify-content: center;
@@ -128,6 +126,21 @@
 .subtitle-location h2 {
     text-align: center;
 }
+
+.iframe-nucleos {
+    margin: 0 auto;
+    width: 90%;
+    height: 90vh;
+}
+
+.iframe-nucleos iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 /*Responsividade*/
 
 /*Tela Tablet*/

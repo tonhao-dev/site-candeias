@@ -7,13 +7,12 @@
 
 html,
 body {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 main {
-    flex: 1;
+    width: 100%;
 }
 
 a {
@@ -57,6 +56,10 @@ button {
 
 section {
     padding-block: 100px 100px;
+}
+
+section:last-child {
+    padding-block: 4rem 4rem;
 }
 
 /*Button voltar ao topo*/
@@ -186,7 +189,7 @@ section {
 
 /*Container*/
 .container-width {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -210,9 +213,7 @@ header {
     height: 80px;
     padding: 10px 10px;
     background-color: rgba(0, 0, 0, 0.3);
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: sticky;
     z-index: 999;
     backdrop-filter: blur(2px);
     background-color: #212121 !important;
@@ -410,9 +411,14 @@ header {
     border-radius: 5px;
 }
 
-.carousel-indicators,
+.container-carousel {
+    width: 80%;
+    margin: 4rem auto 4rem;
+}
+
 .carousel-inner img {
     border-radius: 5px;
+    width: 100%;
 }
 
 
@@ -869,6 +875,8 @@ header {
     font-size: var(--fs-pequeno);
     font-weight: 500;
     font-family: var(--fonte-principal);
+
+    word-break: break-all;
 }
 
 .contact-info i {
@@ -951,11 +959,6 @@ header {
 
     }
 
-    .carousel {
-        margin-top: 120px;
-        margin-bottom: 50px;
-    }
-
     .image-about img {
         width: 400px;
     }
@@ -995,6 +998,10 @@ header {
 
     .container-width {
         max-width: 700px;
+    }
+
+    .container-carousel {
+        width: 80%;
     }
 
 
@@ -1087,7 +1094,7 @@ header {
     }
 
     .data-carousel {
-        right: 10px;
+        right: 30px;
         gap: 30px;
     }
 
@@ -1210,7 +1217,7 @@ header {
 /*Tela mobile (425px*/
 @media screen and (max-width: 426px) {
     .container-width {
-        max-width: 400px;
+        max-width: 350px;
     }
 
 
@@ -1228,8 +1235,12 @@ header {
     }
 
     .carousel-inner img {
-        height: 300px;
+        height: 200px;
         object-fit: cover;
+    }
+
+    .container-carousel {
+        margin: 2rem auto 2rem;
     }
 
 
