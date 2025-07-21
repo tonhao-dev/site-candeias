@@ -12,8 +12,6 @@ async function setupCarrossel() {
   const carrosselContainer = document.querySelector('.carousel-inner');
   const images = await fetchCarrosselImages();
 
-  console.log(images);
-
   images.forEach((image, index) => {
     const trimmedImage = image.trim();
     if (!trimmedImage) return
@@ -28,9 +26,10 @@ async function setupCarrossel() {
 
     const itemHtml = `
       <div class="carousel-item${index === 0 ? ' active' : ''}" data-bs-interval="5000">
-        <img src="${trimmedImage}" style="width:80vw; height:550px; object-fit:cover;" class="d-block" alt="Carrossel Image ${index + 1}">
+        <img src="${trimmedImage}" alt="Carrossel Image ${index + 1}">
       </div>
     `;
+
     carrosselContainer.insertAdjacentHTML('beforeend', itemHtml);
   });
 }
