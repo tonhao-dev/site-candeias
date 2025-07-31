@@ -181,7 +181,7 @@ export const dadosMestres = {
       inicio: "1982",
       pais: "Brasil",
       bandeira: "brasil",
-      img: "../../assets/images/logo/logo2.png",
+      img: "../../assets/images/conselho-mestres/Membros/sauva.png",
       nucleo: "Goiânia - Goiás",
       historia:
         "Sou conhecido como MESTRE SAÚVA. Nasci em 28 de janeiro de 1964 e iniciei na capoeira no dia 22 de julho de 1982, após assistir a uma apresentação no SESC. No dia seguinte já estava matriculado e logo intensifiquei os treinos, participando de aulas em vários locais, como a ESEFEGO e o COLU, inclusive com o Mestre Suíno. Comecei a dar aula cedo, quando ainda estava entre a terceira e quarta corda, e enfrentei muita resistência ao ensinar capoeira em Jussara, onde fui pioneiro e formei alunos como o Miúdo. Após o nascimento do meu filho, retornei a Goiânia e segui dando aulas no Bairro Feliz, formando diversos alunos de destaque como Catatau, Santiago, Cigana e outros. Tive mais de 300 alunos ativos, mas com mudanças de espaço, perdi parte da turma e me adaptei ensinando em igrejas e academias. Sofri um acidente grave que afetou meu sistema nervoso, mas sigo usando a própria capoeira como forma de reabilitação. Sigo firme no propósito de ensinar e manter viva a tradição que transformou minha vida.",
@@ -207,7 +207,7 @@ export const dadosMestres = {
       inicio: "1986",
       pais: "Brasil",
       bandeira: "brasil",
-      img: "../../assets/images/logo/logo2.png",
+      img: "../../assets/images/conselho-mestres/Membros/senzala.png",
       nucleo: "Goiânia - Goiás",
       historia:
         "Sou conhecido como MESTRE SENZALA. Nasci em 1972, na cidade de Água Limpa, município de Faina-GO. Conheci a capoeira por volta de 1986, levado por um amigo para assistir às aulas do Professor Pajé, do Grupo São Bento Pequeno. Fiquei impressionado e comecei a treinar, permanecendo por três anos. Em 1989, me mudei para Goiânia e iniciei com o Professor Piau na Associação dos Moradores do Jardim Vila Boa. Já com algum conhecimento e o apelido Senzala, pedi para começar do início. Quando o Piau parou de dar aula, me levou ao DCE da Universidade Católica e me apresentou ao Mestre Suíno, com quem estou até hoje. O Grupo Candeias foi essencial para o meu crescimento, proporcionando eventos marcantes como o 'Goiás Mostra Suas Pernas' e o jogo do Mestre Canjiquinha com Mestre Charm. Com apoio do grupo, me formei em Educação Física e sigo como mestre, tendo orgulho de plantar minha árvore nesse solo. Agradeço ao Mestre Suíno, que sempre foi como um pai para mim, incentivando-nos a estudar para transformar nossa realidade.",
@@ -220,7 +220,7 @@ export const dadosMestres = {
       inicio: "anos 1990",
       pais: "Brasil",
       bandeira: "brasil",
-      img: "../../assets/images/logo/logo2.png",
+      img: "../../assets/images/conselho-mestres/Membros/lula.png",
       nucleo: "Maceió - Alagoas",
       historia:
         "Sou conhecido como MESTRE LULA. Nasci em 10 de janeiro de 1974, e coordeno atualmente um trabalho sólido de capoeira na cidade de Maceió, Alagoas. Conheci o Grupo Candeias após um amigo me falar sobre o grupo e seu mestre, o Mestre Suíno. Tive meu primeiro contato com ele em um evento em Brasília e, com o tempo, o convidei para conhecer meu trabalho em Maceió, na época como contramestre do Grupo Ginga Brasil. Após sua visita, fui oficialmente acolhido no Grupo Candeias, e comecei meu processo de adaptação. Fui diversas vezes a Goiânia para aprender com o grupo e com o Mestre Suíno, passando por experiências marcantes, como a aula de ginga de frente para a parede e uma roda intensa no Setor Universitário. Passei pelas graduações até ser formado mestre em 2014, durante o Fest Candeias Internacional em Maceió, por Mestre Suíno. Sofri um AVC, que me afastou temporariamente, mas retornei com força. Hoje, tenho alunos atuando em diversas cidades e países, como o Professor Thiaguinho na Espanha, e coordeno um grupo forte em Alagoas. Em 2018, realizei o Fest Internacional, celebrando 20 anos do Grupo Candeias em Maceió, com a frase marcante: 'Você quer bater palmas para outro jogar, ou quer fazer os outros pararem de bater palmas vendo você jogar? Então treine!'",
