@@ -6,6 +6,7 @@ main {
   object-fit: contain;
   background-size: cover;
   position: relative;
+  height: 50dvh;
 }
 
 main::after {
@@ -21,7 +22,6 @@ main::after {
 
 .container-content {
   display: flex;
-  margin-top: 12%;
   width: 100%;
   z-index: 5;
 }
@@ -34,6 +34,7 @@ main::after {
   width: 100%;
   gap: 5px;
   color: #fff;
+  padding: 1rem;
 }
 
 .container-one h1 {
@@ -42,6 +43,13 @@ main::after {
   font-weight: var(--font-bold-titulo);
   font-size: var(--fs-titulo);
 }
+
+.container-one a {
+  text-decoration: none;
+  color: #fff;
+  font-size: var(--fs-button);
+}
+
 .botao-acesso {
   background-color: var(--cor-primaria);
   border-radius: 5px;
