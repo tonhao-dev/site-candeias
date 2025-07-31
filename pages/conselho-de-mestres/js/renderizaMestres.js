@@ -27,7 +27,7 @@ export function renderizaMestres(grauMestres, mestres) {
           </div>
           <div class="container-simple-secundary">
             <h2>Atuando:</h2>
-            <h3>${mestre.nucleo || ''}${mestre.pais ? ' - (' + mestre.pais + ')' : ''}</h3>
+            <h3>${mestre.nucleo || ''}${mestre.pais ? ' - ' + mestre.pais : ''}</h3>
           </div>
         </div>
       </div>
