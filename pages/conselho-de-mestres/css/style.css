@@ -348,6 +348,7 @@ hr {
     font-size: var(--fs-button);
     font-weight: var(--font-bold);
     color: var(--cor-details);
+    text-transform: capitalize;
 }
 
 .container-simple-secundary h2{
@@ -364,6 +365,16 @@ hr {
     font-weight: 600;
     color: var(--cor-fundo);
 }
+
+.container-simple-secundary h3 a {
+    color: #000;
+    font-weight: 500;
+}
+
+.container-simple-secundary h3 a:hover {
+    text-decoration: underline;
+}
+
 .button-saiba-mais p{
     margin: 0;
 }

@@ -29,6 +29,12 @@ export function renderizaMestres(grauMestres, mestres) {
             <h2>Atuando:</h2>
             <h3>${mestre.nucleo || ''}${mestre.pais ? ' - ' + mestre.pais : ''}</h3>
           </div>
+          ${mestre.instagram ? `
+            <div class="container-simple-secundary">
+              <h2>Instagram:</h2>
+              <h3><a href="https://www.instagram.com/${mestre.instagram.replace('@', '')}/" target="_blank">@${mestre.instagram}</a></h3>
+            </div>
+          `: ''}
         </div>
       </div>
       <div class="container-button-nacionality">
