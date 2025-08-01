@@ -94,6 +94,19 @@ export const dadosMestres = {
         "Sou conhecido pelo mundo capoeirístico como Mestre Tiziu, formado em 2011 pelo presidente do GRUPO CANDEIAS, ELTO PEREIRA DE BRITO conhecido mundialmente por Mestre Suíno. Segundo semestre de 1985, foi meu inicio na capoeira, no colégio ESTADUAL PROF. JOSÉ ALVES DE ASSIS no Setor dos Afonsos, eu era uma pessoa fascinada por lutas e estava ainda organizando minha mudança, pois tinha acabado de chegar a Goiânia. Meus pais resolveram vir para Goiânia nem sei por que, pois meu pai viajava muito e minha mãe, na maioria das vezes, tinha que se virar para cuidar das crianças, sozinha. Deve ser por isso que não ficávamos muito tempo em lugar nenhum, mas, graças a Deus Goiânia foi o melhor lugar para ficar. Passaram as férias e as aulas voltaram, teve uma visita em sala de aula, na qual o Professor Besouro (Rogério Pereira da Silva), responsável pela turma de capoeira que eu nem sabia o que era, nem como era e nem para que servia, explicou que tinha aulas aos finais de semanas e que haveria alguns dias da semana também, então resolvi dá uma olhadinha para saber realmente do que se tratava essa tal capoeira. Na hora do recreio, tinha um montão de gente para assistir e para fazer uma apresentação, com palmas, músicas e instrumentos, eles iam fazendo umas acrobacias e eles iam ganhando os alunos do colégio. E, eu lá de longe, ficava só olhando, pois era muito tímido e ficar na frente nunca, prefiro sempre ficar atrás e observar. Bom, então, eu pensei vou no final de semana para ver melhor a aula.",
     },
     {
+      id: "senzala",
+      nome: "Derval Correa Da Silva",
+      apelido: "MESTRE SENZALA",
+      instagram: "senzalapersonal",
+      inicio: "1986",
+      pais: "Brasil",
+      bandeira: "brasil",
+      img: "../../assets/images/conselho-mestres/Membros/senzala.png",
+      nucleo: "Goiânia - Goiás",
+      historia:
+        "Sou conhecido como MESTRE SENZALA. Nasci em 1972, na cidade de Água Limpa, município de Faina-GO. Conheci a capoeira por volta de 1986, levado por um amigo para assistir às aulas do Professor Pajé, do Grupo São Bento Pequeno. Fiquei impressionado e comecei a treinar, permanecendo por três anos. Em 1989, me mudei para Goiânia e iniciei com o Professor Piau na Associação dos Moradores do Jardim Vila Boa. Já com algum conhecimento e o apelido Senzala, pedi para começar do início. Quando o Piau parou de dar aula, me levou ao DCE da Universidade Católica e me apresentou ao Mestre Suíno, com quem estou até hoje. O Grupo Candeias foi essencial para o meu crescimento, proporcionando eventos marcantes como o 'Goiás Mostra Suas Pernas' e o jogo do Mestre Canjiquinha com Mestre Charm. Com apoio do grupo, me formei em Educação Física e sigo como mestre, tendo orgulho de plantar minha árvore nesse solo. Agradeço ao Mestre Suíno, que sempre foi como um pai para mim, incentivando-nos a estudar para transformar nossa realidade.",
+    },
+    {
       id: "gueroba",
       nome: "Gilmar Pereira De Castro",
       apelido: "MESTRE GUEROBA",
@@ -118,6 +131,19 @@ export const dadosMestres = {
       nucleo: "Goiânia - Goiás",
       historia:
         "Dei início na Capoeira dia 23 de junho de 1985, no Grupo Surussal com o Contramestre Salário (atualmente, Ilustre, um dos Mestres formados por Mestre Suíno), na associação dos moradores do Jardim Novo Mundo. Mas, na verdade, comecei por acaso apenas por ter problemas respiratórios como bronquite alérgica e asmática. Meus irmãos já praticavam capoeira, Vantuir Alberto de Abreu ou Xavante (em memória) e Vanilson Alessandro de Abreu, Mestre Sazuki que mora na República Tcheca. Em uma das minhas últimas crises fiquei internada, o médico disse à minha mãe que seria bom se eu praticasse algum esporte, de preferência a natação, mas naquela época natação era algo mais elitizado e caro. Então, minha mãe me colocou, mesmo contra a vontade de meu pai, na Capoeira. Meu avô dizia que eu me tornaria uma vagabunda e meus irmãos, maloqueiros. Mal sabia ele que a sabedoria que minha mãe sempre teve nos tornou o contrário do que ele pensava. Em 1986, meu irmão Xavante foi convocado para participar dos JEBs, e ele foi o único a ganhar a medalha para o estado de Goiás, ficando em 3° lugar individual (ele era fenomenal).",
+    },
+    {
+      id: "amazonas",
+      nome: "Sandra Regina Prudêncio",
+      apelido: "Mestra Amazonas",
+      instagram: "mestraamazonas",
+      inicio: "1985",
+      pais: "Brasil",
+      bandeira: "brasil",
+      img: "../../assets/images/logo/logo2.png",
+      nucleo: "Goiânia - Goiás",
+      historia:
+        "Nasci em Goiânia em 1969 e comecei a treinar capoeira em 1985 no Grupo São Bento Pequeno, criado pelo Mestre Passarinho. Em 1988, participei de uma seletiva para um campeonato brasileiro, onde conheci o Mestre Suíno, que me convidou para treinar no seu grupo. Em 1989 entrei para o Grupo Anglo Regional do SESC, antigo nome do Grupo Candeias. Fui pioneira como mulher em várias conquistas, como o primeiro salto mortal feminino em evento oficial (1995) e o primeiro batizado feminino do grupo. Participei de muitos campeonatos, apresentações e viagens, nacionais e internacionais. Atualmente, me preparo para ser Mestra no grupo, focando no ensino da capoeira com qualidade e respeito aos fundamentos da arte.",
     },
     {
       id: "babuino",
@@ -200,19 +226,6 @@ export const dadosMestres = {
         "Sou conhecido como MESTRE SANTIAGO. Meu primeiro contato com a capoeira foi ainda criança, assistindo às aulas do Mestre Osvaldo, aluno de Mestre Bimba, pelas frestas de um barracão, sem poder participar por falta de recursos. Comecei a treinar de fato em 1988, com o Professor Saúva, no Centro Comunitário do Bairro Feliz. Para pagar as aulas, capinei lotes e carreguei terra. Superei dificuldades e brincadeiras maldosas no início, mas fui persistente e continuei treinando quando muitos desistiram. Passei por diversos professores e espaços, como o Mestre Piau e a academia Equilíbrio. Fui ao quartel em Brasília em 1994, onde enfrentei desafios devido à violência no meio da capoeira local. De volta a Goiânia, iniciei um trabalho próprio no Bairro Feliz e, mesmo formado na corda verde escura, tive que passar por novas formações e orientações com o Mestre Suíno para poder dar aulas dentro do padrão do Grupo Candeias. Fiz parceria com o Mestre Sarará, onde avancei nas graduações até quase contramestre, e após sua saída, continuei com o Mestre Suíno no DCE. Tive muitos alunos ao longo dos anos e assumi turmas em diversos espaços, incluindo o tradicional Clube Jaó. A persistência, a disciplina e o apoio do Grupo Candeias foram fundamentais na minha caminhada.",
     },
     {
-      id: "senzala",
-      nome: "Derval Correa Da Silva",
-      apelido: "MESTRE SENZALA",
-      instagram: "senzalapersonal",
-      inicio: "1986",
-      pais: "Brasil",
-      bandeira: "brasil",
-      img: "../../assets/images/conselho-mestres/Membros/senzala.png",
-      nucleo: "Goiânia - Goiás",
-      historia:
-        "Sou conhecido como MESTRE SENZALA. Nasci em 1972, na cidade de Água Limpa, município de Faina-GO. Conheci a capoeira por volta de 1986, levado por um amigo para assistir às aulas do Professor Pajé, do Grupo São Bento Pequeno. Fiquei impressionado e comecei a treinar, permanecendo por três anos. Em 1989, me mudei para Goiânia e iniciei com o Professor Piau na Associação dos Moradores do Jardim Vila Boa. Já com algum conhecimento e o apelido Senzala, pedi para começar do início. Quando o Piau parou de dar aula, me levou ao DCE da Universidade Católica e me apresentou ao Mestre Suíno, com quem estou até hoje. O Grupo Candeias foi essencial para o meu crescimento, proporcionando eventos marcantes como o 'Goiás Mostra Suas Pernas' e o jogo do Mestre Canjiquinha com Mestre Charm. Com apoio do grupo, me formei em Educação Física e sigo como mestre, tendo orgulho de plantar minha árvore nesse solo. Agradeço ao Mestre Suíno, que sempre foi como um pai para mim, incentivando-nos a estudar para transformar nossa realidade.",
-    },
-    {
       id: "lula",
       nome: "Luiz Gustavo De Melo",
       apelido: "MESTRE LULA",
@@ -250,19 +263,6 @@ export const dadosMestres = {
       nucleo: "Goiânia - Goiás",
       historia:
         "Comecei a treinar capoeira aos 13 anos no SESC, influenciado pela curiosidade ao ouvir as rodas. Sou discípulo do Mestre Suíno e recebi o apelido Mikim durante a roda. Em 1979, já treinava com frequência e participei do Grupo Anglo-Regional, que depois virou Candeias. Sempre fui extrovertido e gostava das excursões e apresentações do grupo. Entre momentos marcantes, destaco a valorização ao receber a corda surpresa e a participação nas graduações. Passei por momentos difíceis, como a quebra do nariz que me afastou dos treinos por seis meses. Recordo também os treinos duros, como a sabatina e o corredor polonês, que faziam parte da formação. Planejo que futuras graduações sejam sempre comemoradas com homenagens aos alunos.",
-    },
-    {
-      id: "amazonas",
-      nome: "Sandra Regina Prudêncio",
-      apelido: "Mestra Amazonas",
-      instagram: "mestraamazonas",
-      inicio: "1985",
-      pais: "Brasil",
-      bandeira: "brasil",
-      img: "../../assets/images/logo/logo2.png",
-      nucleo: "Goiânia - Goiás",
-      historia:
-        "Nasci em Goiânia em 1969 e comecei a treinar capoeira em 1985 no Grupo São Bento Pequeno, criado pelo Mestre Passarinho. Em 1988, participei de uma seletiva para um campeonato brasileiro, onde conheci o Mestre Suíno, que me convidou para treinar no seu grupo. Em 1989 entrei para o Grupo Anglo Regional do SESC, antigo nome do Grupo Candeias. Fui pioneira como mulher em várias conquistas, como o primeiro salto mortal feminino em evento oficial (1995) e o primeiro batizado feminino do grupo. Participei de muitos campeonatos, apresentações e viagens, nacionais e internacionais. Atualmente, me preparo para ser Mestra no grupo, focando no ensino da capoeira com qualidade e respeito aos fundamentos da arte.",
     },
     {
       id: "besouro2",
