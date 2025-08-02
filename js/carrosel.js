@@ -26,7 +26,9 @@ async function setupCarrossel() {
 
     const itemHtml = `
       <div class="carousel-item${index === 0 ? ' active' : ''}" data-bs-interval="5000">
-        <img src="${trimmedImage}" alt="Carrossel Image ${index + 1}">
+      <a href='pages/galeria/index.html' target='_blank'>
+              <img src="${trimmedImage}" alt="Carrossel Image ${index + 1}">
+      </a>
       </div>
     `;
 
