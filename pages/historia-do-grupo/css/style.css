@@ -420,11 +420,11 @@ header {
 @media (max-width: 515px) {
 
     .text-resume p {
-        font-size: 20px;
+        font-size: var(--fs-normal);
     }
 
     .timeline-text p {
-        font-size: 20px;
+        font-size: var(--fs-normal);
     }
 
 }
