@@ -146,6 +146,19 @@ export const dadosMestres = {
         "Nasci em Goiânia em 1969 e comecei a treinar capoeira em 1985 no Grupo São Bento Pequeno, criado pelo Mestre Passarinho. Em 1988, participei de uma seletiva para um campeonato brasileiro, onde conheci o Mestre Suíno, que me convidou para treinar no seu grupo. Em 1989 entrei para o Grupo Anglo Regional do SESC, antigo nome do Grupo Candeias. Fui pioneira como mulher em várias conquistas, como o primeiro salto mortal feminino em evento oficial (1995) e o primeiro batizado feminino do grupo. Participei de muitos campeonatos, apresentações e viagens, nacionais e internacionais. Atualmente, me preparo para ser Mestra no grupo, focando no ensino da capoeira com qualidade e respeito aos fundamentos da arte.",
     },
     {
+      id: "lula",
+      nome: "Luiz Gustavo De Melo",
+      apelido: "MESTRE LULA",
+      instagram: "lulacandeias",
+      inicio: "anos 1990",
+      pais: "Brasil",
+      bandeira: "brasil",
+      img: "../../assets/images/conselho-mestres/Membros/lula.png",
+      nucleo: "Maceió - Alagoas",
+      historia:
+        "Sou conhecido como MESTRE LULA. Nasci em 10 de janeiro de 1974, e coordeno atualmente um trabalho sólido de capoeira na cidade de Maceió, Alagoas. Conheci o Grupo Candeias após um amigo me falar sobre o grupo e seu mestre, o Mestre Suíno. Tive meu primeiro contato com ele em um evento em Brasília e, com o tempo, o convidei para conhecer meu trabalho em Maceió, na época como contramestre do Grupo Ginga Brasil. Após sua visita, fui oficialmente acolhido no Grupo Candeias, e comecei meu processo de adaptação. Fui diversas vezes a Goiânia para aprender com o grupo e com o Mestre Suíno, passando por experiências marcantes, como a aula de ginga de frente para a parede e uma roda intensa no Setor Universitário. Passei pelas graduações até ser formado mestre em 2014, durante o Fest Candeias Internacional em Maceió, por Mestre Suíno. Sofri um AVC, que me afastou temporariamente, mas retornei com força. Hoje, tenho alunos atuando em diversas cidades e países, como o Professor Thiaguinho na Espanha, e coordeno um grupo forte em Alagoas. Em 2018, realizei o Fest Internacional, celebrando 20 anos do Grupo Candeias em Maceió, com a frase marcante: 'Você quer bater palmas para outro jogar, ou quer fazer os outros pararem de bater palmas vendo você jogar? Então treine!'",
+    },
+    {
       id: "babuino",
       nome: "Marcone Dos Santos Costa",
       apelido: "MESTRE BABUÍNO",
@@ -224,19 +237,6 @@ export const dadosMestres = {
       nucleo: "Goiânia - Goiás",
       historia:
         "Sou conhecido como MESTRE SANTIAGO. Meu primeiro contato com a capoeira foi ainda criança, assistindo às aulas do Mestre Osvaldo, aluno de Mestre Bimba, pelas frestas de um barracão, sem poder participar por falta de recursos. Comecei a treinar de fato em 1988, com o Professor Saúva, no Centro Comunitário do Bairro Feliz. Para pagar as aulas, capinei lotes e carreguei terra. Superei dificuldades e brincadeiras maldosas no início, mas fui persistente e continuei treinando quando muitos desistiram. Passei por diversos professores e espaços, como o Mestre Piau e a academia Equilíbrio. Fui ao quartel em Brasília em 1994, onde enfrentei desafios devido à violência no meio da capoeira local. De volta a Goiânia, iniciei um trabalho próprio no Bairro Feliz e, mesmo formado na corda verde escura, tive que passar por novas formações e orientações com o Mestre Suíno para poder dar aulas dentro do padrão do Grupo Candeias. Fiz parceria com o Mestre Sarará, onde avancei nas graduações até quase contramestre, e após sua saída, continuei com o Mestre Suíno no DCE. Tive muitos alunos ao longo dos anos e assumi turmas em diversos espaços, incluindo o tradicional Clube Jaó. A persistência, a disciplina e o apoio do Grupo Candeias foram fundamentais na minha caminhada.",
-    },
-    {
-      id: "lula",
-      nome: "Luiz Gustavo De Melo",
-      apelido: "MESTRE LULA",
-      instagram: "lulacandeias",
-      inicio: "anos 1990",
-      pais: "Brasil",
-      bandeira: "brasil",
-      img: "../../assets/images/conselho-mestres/Membros/lula.png",
-      nucleo: "Maceió - Alagoas",
-      historia:
-        "Sou conhecido como MESTRE LULA. Nasci em 10 de janeiro de 1974, e coordeno atualmente um trabalho sólido de capoeira na cidade de Maceió, Alagoas. Conheci o Grupo Candeias após um amigo me falar sobre o grupo e seu mestre, o Mestre Suíno. Tive meu primeiro contato com ele em um evento em Brasília e, com o tempo, o convidei para conhecer meu trabalho em Maceió, na época como contramestre do Grupo Ginga Brasil. Após sua visita, fui oficialmente acolhido no Grupo Candeias, e comecei meu processo de adaptação. Fui diversas vezes a Goiânia para aprender com o grupo e com o Mestre Suíno, passando por experiências marcantes, como a aula de ginga de frente para a parede e uma roda intensa no Setor Universitário. Passei pelas graduações até ser formado mestre em 2014, durante o Fest Candeias Internacional em Maceió, por Mestre Suíno. Sofri um AVC, que me afastou temporariamente, mas retornei com força. Hoje, tenho alunos atuando em diversas cidades e países, como o Professor Thiaguinho na Espanha, e coordeno um grupo forte em Alagoas. Em 2018, realizei o Fest Internacional, celebrando 20 anos do Grupo Candeias em Maceió, com a frase marcante: 'Você quer bater palmas para outro jogar, ou quer fazer os outros pararem de bater palmas vendo você jogar? Então treine!'",
     },
     {
       id: "mola",
