@@ -8,12 +8,11 @@
  *                                     ex.: data-i18n-attr="alt:common.logoAlt;title:home.mapTitle"
  *
  * As traduções ficam em /locales/<lang>.json com chaves em notação de ponto.
- * O idioma escolhido é salvo em localStorage ("candeias-lang").
- * Um seletor de idioma (PT | ES) é injetado automaticamente na barra de navegação.
+ * O idioma é detectado automaticamente a partir do navegador do usuário
+ * (navigator.languages / navigator.language). Sem seletor manual.
  */
 
 (function () {
-  const STORAGE_KEY = 'candeias-lang';
   const DEFAULT_LANG = 'pt-BR';
   const SUPPORTED = ['pt-BR', 'es-PE'];
 
@@ -25,12 +24,16 @@
   let currentDict = null;
   let applying = false;
 
-  function getStoredLang() {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved && SUPPORTED.includes(saved)) return saved;
-
-    const browser = (navigator.language || '').toLowerCase();
-    if (browser.startsWith('es')) return 'es-PE';
+  // Detecta o idioma diretamente do navegador. Espanhol -> es-PE, caso contrário pt-BR.
+  function detectLang() {
+    const prefs = navigator.languages && navigator.languages.length
+      ? navigator.languages
+      : [navigator.language || ''];
+    for (const raw of prefs) {
+      const lang = (raw || '').toLowerCase();
+      if (lang.startsWith('es')) return 'es-PE';
+      if (lang.startsWith('pt')) return 'pt-BR';
+    }
     return DEFAULT_LANG;
   }
 
@@ -82,42 +85,9 @@
       currentDict = dict;
       applyTranslations(dict);
       document.documentElement.lang = lang;
-      localStorage.setItem(STORAGE_KEY, lang);
-      updateSwitcherState(lang);
     } catch (err) {
       console.error('[i18n]', err);
     }
-  }
-
-  function updateSwitcherState(lang) {
-    document.querySelectorAll('.lang-switcher button').forEach(btn => {
-      btn.classList.toggle('active', btn.dataset.lang === lang);
-    });
-  }
-
-  function buildSwitcher() {
-    const navList = document.querySelector('.nav-list');
-    if (!navList || navList.querySelector('.lang-switcher')) return;
-
-    const li = document.createElement('li');
-    li.className = 'lang-switcher';
-
-    const langs = [
-      { code: 'pt-BR', label: 'PT' },
-      { code: 'es-PE', label: 'ES' }
-    ];
-
-    langs.forEach(({ code, label }) => {
-      const btn = document.createElement('button');
-      btn.type = 'button';
-      btn.textContent = label;
-      btn.dataset.lang = code;
-      btn.setAttribute('aria-label', label);
-      btn.addEventListener('click', () => setLanguage(code));
-      li.appendChild(btn);
-    });
-
-    navList.appendChild(li);
   }
 
   // Reaplica as traduções em conteúdo inserido dinamicamente (ex.: cards de mestres).
@@ -135,8 +105,7 @@
   }
 
   function init() {
-    buildSwitcher();
-    setLanguage(getStoredLang());
+    setLanguage(detectLang());
     observeDynamicContent();
   }
 
