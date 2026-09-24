@@ -269,7 +269,7 @@ export const dadosMestres = {
       inicio: "",
       pais: "Brasil",
       bandeira: "brasil",
-      img: "../../assets/images/logo/logo2.png",
+      img: "../../assets/images/conselho-mestres/Membros/jana.png",
       nucleo: "Paranaguá - Paraná",
       historia: {
         "pt-BR": "Em breve.",
