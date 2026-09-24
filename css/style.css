@@ -1278,3 +1278,66 @@ header {
         width: 300px;
     }
 }
+
+/* ===== Seletor de idioma (i18n) ===== */
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 8px;
+}
+
+.lang-option {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    font-family: var(--fonte-principal);
+    font-weight: var(--font-bold);
+    font-size: 0.8rem;
+    line-height: 1;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.lang-option:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.lang-option.active {
+    background: #fff;
+    color: #000;
+    border-color: #fff;
+}
+
+/* ===== Seletor de idioma (i18n) ===== */
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.lang-switcher button {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    font-family: var(--fonte-principal);
+    font-weight: var(--font-bold);
+    font-size: 0.85rem;
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    line-height: 1;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.lang-switcher button:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.lang-switcher button.active {
+    background: #fff;
+    color: #000;
+    border-color: #fff;
+}

@@ -20,7 +20,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <title>Inicial - Candeias</title>
+    <title data-i18n="home.title">Inicial - Candeias</title>
 </head>
 
 <body>
@@ -32,23 +32,24 @@
             </a>
             <button class="hamburger"></button>
             <ul class="nav-list" data-aos="fade-up" data-aos-delay="300">
-                <li><a href="#" class="link-active">Início</a></li>
-                <li><a href="pages/historia-do-grupo/index.html">Nossa história</a></li>
-                <li><a href="pages/nucleos/index.html">Núcleos</a></li>
-                <li><a href="pages/eventos/index.html">Eventos</a></li>
+                <li><a href="#" class="link-active" data-i18n="nav.home">Início</a></li>
+                <li><a href="pages/historia-do-grupo/index.html" data-i18n="nav.history">Nossa história</a></li>
+                <li><a href="pages/nucleos/index.html" data-i18n="nav.nucleos">Núcleos</a></li>
+                <li><a href="pages/eventos/index.html" data-i18n="nav.eventos">Eventos</a></li>
 
                 <!-- Dropdown Grupo Candeias -->
                 <li class="dropdown">
                     <div class="">
-                        <a href="#">Grupo Candeias</a>
+                        <a href="#" data-i18n="nav.grupo">Grupo Candeias</a>
                         <i class="ri-arrow-down-s-fill"></i>
                     </div>
 
                     <ul class="dropdown-menu">
-                        <li><a href="pages/conselho-de-mestres/index.html">Conselho de Mestres</a></li>
-                        <li><a href="pages/artes/index.html">Artes Oficiais</a></li>
-                        <li><a href="pages/galeria/index.html">Galeria de Fotos</a></li>
-                        <li><a href="pages/graduacoes/index.html">Graduações</a></li>
+                        <li><a href="pages/conselho-de-mestres/index.html" data-i18n="nav.conselho">Conselho de
+                                Mestres</a></li>
+                        <li><a href="pages/artes/index.html" data-i18n="nav.artes">Artes Oficiais</a></li>
+                        <li><a href="pages/galeria/index.html" data-i18n="nav.galeria">Galeria de Fotos</a></li>
+                        <li><a href="pages/graduacoes/index.html" data-i18n="nav.graduacoes">Graduações</a></li>
                     </ul>
                 </li>
             </ul>
@@ -68,7 +69,7 @@
                     <span class="seta-slider" aria-hidden="true">
                         <i class="ri-arrow-left-s-line"></i>
                     </span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="visually-hidden" data-i18n="common.prev">Previous</span>
 
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
@@ -76,7 +77,7 @@
                     <span class="seta-slider" aria-hidden="true">
                         <i class="ri-arrow-right-s-line"></i>
                     </span>
-                    <span class="visually-hidden">Next</span>
+                    <span class="visually-hidden" data-i18n="common.next">Next</span>
                 </button>
             </div>
         </div>
@@ -97,7 +98,7 @@
                     </div>
 
                     <div class="stat-number">+ <span class="counter" data-target="2000">0</span></div>
-                    <div class="stat-text">Alunos</div>
+                    <div class="stat-text" data-i18n="home.statsAlunos">Alunos</div>
                 </div>
 
                 <div class="stat-item" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
@@ -107,7 +108,7 @@
                         </div>
                     </a>
                     <div class="stat-number">+ <span class="counter" data-target="80">0</span></div>
-                    <div class="stat-text">Núcleos</div>
+                    <div class="stat-text" data-i18n="home.statsNucleos">Núcleos</div>
                 </div>
 
                 <div class="stat-item" data-aos="fade-up" data-aos-duration="400" data-aos-delay="600">
@@ -115,7 +116,7 @@
                         <i class="ri-flag-line"></i>
                     </div>
                     <div class="stat-number">+ <span class="counter" data-target="16">0</span></div>
-                    <div class="stat-text">Países</div>
+                    <div class="stat-text" data-i18n="home.statsPaises">Países</div>
                 </div>
 
                 <div class="stat-item" data-aos="fade-up" data-aos-duration="400" data-aos-delay="800">
@@ -123,7 +124,7 @@
                         <i class="ri-numbers-fill"></i>
                     </div>
                     <div class="stat-number">+ <span class="counter" data-target="200">0</span></div>
-                    <div class="stat-text">Formados</div>
+                    <div class="stat-text" data-i18n="home.statsFormados">Formados</div>
                 </div>
             </div>
         </section>
@@ -132,27 +133,29 @@
         <!--Seção historia do grupo-->
         <section class="container-width" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <div class="title-about">
-                <h1>Nossa História</h1>
+                <h1 data-i18n="home.historyTitle">Nossa História</h1>
                 <hr>
             </div>
 
             <div class="content-about">
                 <div class="image-about" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
-                    <img src="assets/images/logo/grupo-candeias.png" loading="lazy" alt="Logo Grupo Candeias">
+                    <img src="assets/images/logo/grupo-candeias.png" loading="lazy" alt="Logo Grupo Candeias"
+                        data-i18n-attr="alt:common.logoAlt">
                 </div>
 
                 <div class="data-about">
                     <div class="subtitle-about">
-                        <h2>Mais de 45 anos de tradição</h2>
+                        <h2 data-i18n="home.historySubtitle">Mais de 45 anos de tradição</h2>
                     </div>
 
                     <div class="text-about">
-                        <p>O Grupo Candeias de Capoeira nasceu em 1977 em Goiânia-GO, a partir da iniciativa de
+                        <p data-i18n="home.historyP1">O Grupo Candeias de Capoeira nasceu em 1977 em Goiânia-GO, a
+                            partir da iniciativa de
                             Carlinhos Chuchu no SESC Universitário. Inicialmente chamado de Grupo Anglo-Regional, passou
                             por diversas transformações até ser consolidado sob a liderança de Mestre Suíno, que
                             estruturou o grupo com base pedagógica, filosófica e cultural. </p>
 
-                        <p>
+                        <p data-i18n="home.historyP2">
                             Em 1992, adotou o nome “Candeias” e expandiu-se pelo Brasil e pelo mundo. Hoje, está
                             presente em 13 estados brasileiros e 17 países, com sede internacional em Goiânia, mantendo
                             como essência a formação cidadã, o respeito, a humildade e o compromisso de usar a capoeira
@@ -161,7 +164,8 @@
                     </div>
 
 
-                    <a class="button-about" href="pages/historia-do-grupo/">Conheça nossa história</a>
+                    <a class="button-about" href="pages/historia-do-grupo/" data-i18n="home.historyButton">Conheça nossa
+                        história</a>
 
                 </div>
 
@@ -175,16 +179,18 @@
         <section class="container-width">
             <div class="content-philosophy">
                 <div class="image-philosophy" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                    <img src="assets/images/philosophy-of-group/suino.png" loading="lazy" alt="Mestre Suíno">
+                    <img src="assets/images/philosophy-of-group/suino.png" loading="lazy" alt="Mestre Suíno"
+                        data-i18n-attr="alt:home.philosophyImgAlt">
                 </div>
 
                 <div class="data-philosophy" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <div class="title-philosophy">
-                        <h1>“Estudar para melhorar o mundo, respeitar para ser honrado, trabalhar para ter dignidade e
+                        <h1 data-i18n="home.philosophyQuote">“Estudar para melhorar o mundo, respeitar para ser honrado,
+                            trabalhar para ter dignidade e
                             amar para ter fé”</h1>
                     </div>
                     <div class="author-philosophy">
-                        <h2>Filosofia do Mestre Suíno</h2>
+                        <h2 data-i18n="home.philosophyAuthor">Filosofia do Mestre Suíno</h2>
                     </div>
                 </div>
             </div>
@@ -195,17 +201,18 @@
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <div class="content-location container-width">
                 <div class="title-location">
-                    <h1>Onde estamos</h1>
+                    <h1 data-i18n="home.locationTitle">Onde estamos</h1>
                     <hr>
                 </div>
 
                 <div class="data-location">
                     <div class="subtitle-location">
-                        <h2>Presentes no Brasil e no Mundo</h2>
+                        <h2 data-i18n="home.locationSubtitle">Presentes no Brasil e no Mundo</h2>
                     </div>
 
                     <div class="text-location">
-                        <p>O Grupo Candeias conta com mais de 500 núcleos espalhados por todo o Brasil e diversos países
+                        <p data-i18n="home.locationText">O Grupo Candeias conta com mais de 500 núcleos espalhados por
+                            todo o Brasil e diversos países
                             do
                             mundo, levando a arte e cultura da capoeira para diferentes comunidades.</p>
                     </div>
@@ -213,11 +220,13 @@
             </div>
             <div class="mapa-nucleos">
                 <div class="titie-mapa-nucleos">
-                    <img src="assets/images/logo/grupo-candeias.png" loading="lazy" alt="Logo Grupo Candeias">
+                    <img src="assets/images/logo/grupo-candeias.png" loading="lazy" alt="Logo Grupo Candeias"
+                        data-i18n-attr="alt:common.logoAlt">
                 </div>
 
-                <span title="Núcleos do Grupo Candeias" class="map-nucleos" loading="lazy">
-                    <a class="button-about" href="pages/nucleos/">Ver nucleos</a>
+                <span title="Núcleos do Grupo Candeias" class="map-nucleos" loading="lazy"
+                    data-i18n-attr="title:home.mapTitle">
+                    <a class="button-about" href="pages/nucleos/" data-i18n="home.locationButton">Ver nucleos</a>
                 </span>
             </div>
 
@@ -255,8 +264,9 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-logo">
-                <img src="assets/images/logo/logo.png" loading="lazy" alt="Logo Grupo Candeias">
-                <p>Tradição, cultura e disciplina através da arte da capoeira.</p>
+                <img src="assets/images/logo/logo.png" loading="lazy" alt="Logo Grupo Candeias"
+                    data-i18n-attr="alt:common.logoAlt">
+                <p data-i18n="footer.tagline">Tradição, cultura e disciplina através da arte da capoeira.</p>
                 <div class="social-icons">
                     <a href="https://www.instagram.com/candeiascapoeira?igsh=MWU0dGUwbTk5ZTVpcg=="
                         class="social-icon instagram" target="_blank"><i class="ri-instagram-line"></i>
@@ -280,42 +290,45 @@
             </div>
 
             <div class="footer-section">
-                <h3>Links Rápidos</h3>
+                <h3 data-i18n="footer.quickLinks">Links Rápidos</h3>
                 <ul class="footer-links">
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Nossa História</a></li>
-                    <li><a href="#">Núcleos</a></li>
-                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#" data-i18n="nav.home">Início</a></li>
+                    <li><a href="#" data-i18n="nav.history">Nossa História</a></li>
+                    <li><a href="#" data-i18n="nav.nucleos">Núcleos</a></li>
+                    <li><a href="#" data-i18n="nav.eventos">Eventos</a></li>
                 </ul>
             </div>
 
             <div class="footer-section">
-                <h3>Grupo Candeias</h3>
+                <h3 data-i18n="footer.grupo">Grupo Candeias</h3>
                 <ul class="footer-links">
-                    <li><a href="#">Conselho de Mestres</a></li>
-                    <li><a href="#">Artes Oficiais do Grupo</a></li>
+                    <li><a href="#" data-i18n="footer.conselho">Conselho de Mestres</a></li>
+                    <li><a href="#" data-i18n="footer.artesGrupo">Artes Oficiais do Grupo</a></li>
                 </ul>
             </div>
 
             <div class="footer-section">
-                <h3>Contato</h3>
+                <h3 data-i18n="footer.contato">Contato</h3>
                 <ul class="contact-info footer-links">
                     <li><i class="ri-mail-line"></i> grupocandeiasdecapoeira@gmail.com</li>
                     <li><i class="ri-map-pin-line"></i><a target="_blank"
-                            href="https://maps.app.goo.gl/JmZDb6WYnH6SGiDh6">Associação Candeias de Capoeira</a></li>
+                            href="https://maps.app.goo.gl/JmZDb6WYnH6SGiDh6" data-i18n="footer.association">Associação
+                            Candeias de Capoeira</a></li>
                 </ul>
             </div>
         </div>
 
         <div class="footer-bottom">
-            <p>&copy; 2026 Grupo de Capoeira Candeias. Todos os direitos reservados.</p>
-            <p>Termos de condições de privacidade</p>
+            <p data-i18n="footer.rights">&copy; 2026 Grupo de Capoeira Candeias. Todos os direitos reservados.</p>
+            <p data-i18n="footer.privacy">Termos de condições de privacidade</p>
         </div>
     </footer>
     <!--Fim Rodape-->
 
-    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo da página"></button>
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo da página"
+        data-i18n-attr="aria-label:common.backToTop"></button>
 
+    <script src="js/i18n.js"></script>
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
