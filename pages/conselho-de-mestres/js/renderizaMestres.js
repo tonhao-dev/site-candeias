@@ -26,7 +26,7 @@ export function renderizaMestres(grauMestres, mestres) {
             <h3>${mestre.nome || ''}</h3>
           </div>
           <div class="container-simple-secundary">
-            <h2>Atuando:</h2>
+            <h2 data-i18n="common.atuando">Atuando:</h2>
             <h3>${mestre.nucleo || ''}${mestre.pais ? ' - ' + mestre.pais : ''}</h3>
           </div>
           ${mestre.instagram ? `
@@ -39,7 +39,7 @@ export function renderizaMestres(grauMestres, mestres) {
       </div>
       <div class="container-button-nacionality">
         <div id="${grauMestres}.${mestre.id}" class="button-saiba-mais">
-          <p>Saiba Mais</p>
+          <p data-i18n="common.saibaMais">Saiba Mais</p>
         </div>
         <div class="flag-member">
           <img src="../../assets/icons/${(mestre.bandeira || 'brasil')}.png">

@@ -52,6 +52,19 @@ export const dadosMestres = {
       historia:
         "Nasci na cidade de Goiânia, no ano de 1971, no dia 04 de agosto. Iniciei na capoeira com a influência do meu irmão, atualmente conhecido como Mestre Ilustre. Minha primeira experiência e minha primeira aula foi com ele, que na época era conhecido como Mestre Salário. Ele nos ensinava em um pequeno gramado que tinha perto da nossa casa, no Jardim Novo Mundo e, a partir daqueles momentos, começamos a pegar gosto. Por influência dele, fui levado para o SESC e a história continuou. Tinha oito ou nove anos de idade quando comecei a treinar no Grupo Infantil do SESC, em um momento em que o grupo estava passando por um processo de transição, do nome São Bento Pequeno para Anglo-Regional. Nesse grupo, meus amigos eram o Pelego, o Ziquinho, Luiz Carlos, e também tive a oportunidade de conhecer o Mestre Gueroba, Mestre Xeréu e o Contramestre Rato. O que eu achava legal era termos um tratamento especial. No SESC, tinham algumas estagiárias que sempre faziam reuniões conosco, além de várias atividades de recreação e viagens, por exemplo, para piqueniques, uma das que mais fizemos. Lembro também que o Mestre Besouro era um dos nossos guias, um dos responsáveis por nós, por ser mais velho e por conhecer vários locais de turismo na região de Aparecida. Eram ótimos passeios. E também podíamos aproveitar as dependências do SESC, que era um clube. Inclusive minha mãe, Dona Iraci, também trabalhava lá.",
     },
+    {
+      id: "xereu",
+      nome: "Sandro Paulo De Almeida",
+      apelido: "MESTRE XERÉU",
+      instagram: "mestrexereugyn",
+      inicio: "1983",
+      pais: "Brasil",
+      bandeira: "brasil",
+      img: "../../assets/images/conselho-mestres/Membros/xereu.png",
+      nucleo: "Goiânia - Goiás",
+      historia:
+        "Sou de 03 de fevereiro de 1972, natural de Goiânia-GO. Iniciei a minha vida na capoeira, com Mestre Suíno no ano de 1983, com 11 anos de idade no clube SESC, localizado no Setor Universitário. Na ocasião, fiz parte do Grupo Infantil e participávamos de várias apresentações. Numa delas, marcou o uso de um figurino específico, as batas de renda azul e branca. No início, fui muito influenciado pelos meus primos que eram capoeiristas, eram o Chaminé, Eclipse e o Chaminé 2. Por volta dos meus 18 anos, fiquei dois anos sem treinar. Meu retorno foi com 20 anos e na ocasião percebi que muita coisa havia mudado até mesmo o local de treino. Então fui para o DCE (Diretório Central de Estudantes da Pontifícia Católica de Goiás), e lá me enturmei novamente com os antigos e com os novatos. Danilo, que dirigia um Grupo de Teatro, me convidou para fazer parte de uma peça e foi uma experiência muito bacana. Mais a frente, comecei a ajudar o Mestre Suíno com aulas nas terças e quintas e algumas aulas no Mestre Glauber. Logo que o Mestre Glauber foi para os EUA, em 1996, deixou seu trabalho comigo. A partir disso, meu trabalho só cresceu e comecei a me destacar como professor.",
+    },
   ],
   brancaVermelha: [
     {
@@ -66,19 +79,6 @@ export const dadosMestres = {
       nucleo: "Rio Branco - Acre",
       historia:
         "Sou conhecido como Mestre Saci, nascido em 1974 em Rio Branco–AC. Iniciei na capoeira por volta de 1984, treinando informalmente no quintal de um amigo e, em 1985, comecei a treinar com o Professor Dendê. Recebi minha primeira corda no Grupo Capoeira Brasil com o Professor Olho de Peixe. Desde 1993, comecei a dar aulas e expandi meu trabalho por vários bairros de Rio Branco, além dos municípios de Senador Guiomard e Bujari. Em 1999, fui graduado professor (corda roxa) no Capoeira Brasil. Após divergências internas, deixei o grupo em 2000 e conheci o Grupo Candeias em 2001 durante evento em Porto Velho. Após um estágio de dois anos no Sistema Candeias de Ensino, fui oficialmente integrado ao grupo em 2003. Fui promovido a contramestre de 1º grau em 2006, contramestre de 2º grau em 2009 e Mestre do Grupo Candeias em 2015. Formado em Educação Física, viajei por vários estados e países levando a capoeira e formando gerações de alunos no Acre, onde sigo atuando até hoje.",
-    },
-    {
-      id: "xereu",
-      nome: "Sandro Paulo De Almeida",
-      apelido: "MESTRE XERÉU",
-      instagram: "mestrexereugyn",
-      inicio: "1983",
-      pais: "Brasil",
-      bandeira: "brasil",
-      img: "../../assets/images/conselho-mestres/Membros/xereu.png",
-      nucleo: "Goiânia - Goiás",
-      historia:
-        "Sou de 03 de fevereiro de 1972, natural de Goiânia-GO. Iniciei a minha vida na capoeira, com Mestre Suíno no ano de 1983, com 11 anos de idade no clube SESC, localizado no Setor Universitário. Na ocasião, fiz parte do Grupo Infantil e participávamos de várias apresentações. Numa delas, marcou o uso de um figurino específico, as batas de renda azul e branca. No início, fui muito influenciado pelos meus primos que eram capoeiristas, eram o Chaminé, Eclipse e o Chaminé 2. Por volta dos meus 18 anos, fiquei dois anos sem treinar. Meu retorno foi com 20 anos e na ocasião percebi que muita coisa havia mudado até mesmo o local de treino. Então fui para o DCE (Diretório Central de Estudantes da Pontifícia Católica de Goiás), e lá me enturmei novamente com os antigos e com os novatos. Danilo, que dirigia um Grupo de Teatro, me convidou para fazer parte de uma peça e foi uma experiência muito bacana. Mais a frente, comecei a ajudar o Mestre Suíno com aulas nas terças e quintas e algumas aulas no Mestre Glauber. Logo que o Mestre Glauber foi para os EUA, em 1996, deixou seu trabalho comigo. A partir disso, meu trabalho só cresceu e comecei a me destacar como professor.",
     },
     {
       id: "tiziu",
@@ -173,6 +173,84 @@ export const dadosMestres = {
     },
   ],
   vermelha: [
+    {
+      id: "gaucho",
+      nome: "Raul Borges",
+      apelido: "Mestre Gaúcho",
+      instagram: "mestreraulgauchoborges",
+      inicio: "",
+      pais: "Irlanda",
+      bandeira: "irlanda",
+      img: "../../assets/images/logo/logo2.png",
+      nucleo: "Cork",
+      historia:
+        "Em breve.",
+    },
+    {
+      id: "catatau",
+      nome: "Flávio Silva",
+      apelido: "Mestre Catatau",
+      instagram: "flaviocatatau",
+      inicio: "",
+      pais: "Brasil",
+      bandeira: "brasil",
+      img: "../../assets/images/logo/logo2.png",
+      nucleo: "Goiânia - Goiás",
+      historia:
+        "Em breve.",
+    },
+    {
+      id: "pantanal",
+      nome: "Marcio Roberto Pio Madureiro",
+      apelido: "Mestre Pantanal",
+      instagram: "",
+      inicio: "",
+      pais: "Inglaterra",
+      bandeira: "inglaterra",
+      img: "../../assets/images/logo/logo2.png",
+      nucleo: "Londres",
+      historia:
+        "Em breve.",
+    },
+    {
+      id: "tati",
+      nome: "Tatiana Aparecida Lima",
+      apelido: "Mestra Tati",
+      instagram: "tatipersonal",
+      inicio: "",
+      pais: "Brasil",
+      bandeira: "brasil",
+      img: "../../assets/images/logo/logo2.png",
+      nucleo: "Cuiabá - Mato Grosso",
+      historia:
+        "Em breve.",
+    },
+    {
+      id: "jana",
+      nome: "Janaina de Souza",
+      apelido: "Mestra Jana",
+      instagram: "janasouzacandeias",
+      inicio: "",
+      pais: "Brasil",
+      bandeira: "brasil",
+      img: "../../assets/images/logo/logo2.png",
+      nucleo: "Paranaguá - Paraná",
+      historia:
+        "Em breve.",
+    },
+    {
+      id: "sulim",
+      nome: "Hélio Batista Ribeiro",
+      apelido: "Mestre Sulim",
+      instagram: "sulimcapoeira",
+      inicio: "",
+      pais: "Brasil",
+      bandeira: "brasil",
+      img: "../../assets/images/logo/logo2.png",
+      nucleo: "Cuiabá - Mato Grosso",
+      historia:
+        "Em breve.",
+    },
     {
       id: "vivian",
       nome: "Vivian Alexandra De Abreu",

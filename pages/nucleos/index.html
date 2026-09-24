@@ -21,7 +21,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <title>Núcleos - Candeias</title>
+    <title data-i18n="nucleos.title">Núcleos - Candeias</title>
 </head>
 
 <body>
@@ -33,23 +33,24 @@
             </a>
             <button class="hamburger"></button>
             <ul class="nav-list">
-                <li><a href="../../index.html">Início</a></li>
-                <li><a href="../historia-do-grupo/index.html">Nossa história</a></li>
-                <li><a href="#" class="link-active">Núcleos</a></li>
-                <li><a href="../eventos/index.html">Eventos</a></li>
+                <li><a href="../../index.html" data-i18n="nav.home">Início</a></li>
+                <li><a href="../historia-do-grupo/index.html" data-i18n="nav.history">Nossa história</a></li>
+                <li><a href="#" class="link-active" data-i18n="nav.nucleos">Núcleos</a></li>
+                <li><a href="../eventos/index.html" data-i18n="nav.eventos">Eventos</a></li>
 
                 <!-- Dropdown Grupo Candeias -->
                 <li class="dropdown">
                     <div class="">
-                        <a href="#">Grupo Candeias</a>
+                        <a href="#" data-i18n="nav.grupo">Grupo Candeias</a>
                         <i class="ri-arrow-down-s-fill"></i>
                     </div>
 
                     <ul class="dropdown-menu">
-                        <li><a href="../conselho-de-mestres/index.html">Conselho de Mestres</a></li>
-                        <li><a href="../artes/index.html">Artes Oficiais</a></li>
-                        <li><a href="../galeria/index.html">Galeria de Fotos</a></li>
-                        <li><a href="../graduacoes/index.html">Graduações</a></li>
+                        <li><a href="../conselho-de-mestres/index.html" data-i18n="nav.conselho">Conselho de Mestres</a>
+                        </li>
+                        <li><a href="../artes/index.html" data-i18n="nav.artes">Artes Oficiais</a></li>
+                        <li><a href="../galeria/index.html" data-i18n="nav.galeria">Galeria de Fotos</a></li>
+                        <li><a href="../graduacoes/index.html" data-i18n="nav.graduacoes">Graduações</a></li>
                     </ul>
                 </li>
             </ul>
@@ -67,12 +68,12 @@
 
                 <div class="header-stats">
                     <div class="title-stats">
-                        <h1>Números</h1>
+                        <h1 data-i18n="nucleos.numbersTitle">Números</h1>
                         <hr>
                     </div>
 
                     <div class="subtitle-stats">
-                        <h3>Nosso grupo em números</h3>
+                        <h3 data-i18n="nucleos.numbersSubtitle">Nosso grupo em números</h3>
                     </div>
                 </div>
 
@@ -89,7 +90,7 @@
                         </div>
 
                         <div class="texto-nucleo">
-                            <h2>Alunos</h2>
+                            <h2 data-i18n="nucleos.alunos">Alunos</h2>
                         </div>
                     </div>
                     <div class="nucleo-item">
@@ -102,7 +103,7 @@
                         </div>
 
                         <div class="texto-nucleo">
-                            <h2>Núcleos</h2>
+                            <h2 data-i18n="nucleos.nucleos">Núcleos</h2>
                         </div>
                     </div>
 
@@ -117,7 +118,7 @@
                         </div>
 
                         <div class="texto-nucleo">
-                            <h2>Formados</h2>
+                            <h2 data-i18n="nucleos.formados">Formados</h2>
                         </div>
                     </div>
                     <div class="nucleo-item">
@@ -130,7 +131,7 @@
                         </div>
 
                         <div class="texto-nucleo">
-                            <h2>Mestres</h2>
+                            <h2 data-i18n="nucleos.mestres">Mestres</h2>
                         </div>
                     </div>
 
@@ -149,17 +150,18 @@
         <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
             <div class="content-location container-width">
                 <div class="title-location">
-                    <h1>Espalhados pelo Brasil e pelo mundo</h1>
+                    <h1 data-i18n="nucleos.locationTitle">Espalhados pelo Brasil e pelo mundo</h1>
                     <hr>
                 </div>
 
                 <div class="data-location">
                     <div class="subtitle-location">
-                        <h2>Levando capoeira do Brasil para o mundo</h2>
+                        <h2 data-i18n="nucleos.locationSubtitle">Levando capoeira do Brasil para o mundo</h2>
                     </div>
 
                     <div class="text-location">
-                        <p>Encontre o núcleo mais perto de você e faça parte desse movimento! O Grupo Candeias está
+                        <p data-i18n="nucleos.locationText">Encontre o núcleo mais perto de você e faça parte desse
+                            movimento! O Grupo Candeias está
                             presente em centenas de comunidades no Brasil e no exterior, promovendo a cultura, a arte e
                             os valores da capoeira. Junte-se a nós e viva essa experiência transformadora.</p>
                     </div>
@@ -187,8 +189,9 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-logo">
-                <img src="../../assets/images/logo/logo.png" alt="Logo Grupo Candeias">
-                <p>Tradição, cultura e disciplina através da arte da capoeira.</p>
+                <img src="../../assets/images/logo/logo.png" alt="Logo Grupo Candeias"
+                    data-i18n-attr="alt:common.logoAlt">
+                <p data-i18n="footer.tagline">Tradição, cultura e disciplina através da arte da capoeira.</p>
                 <div class="social-icons">
                     <a href="https://www.instagram.com/candeiascapoeira?igsh=MWU0dGUwbTk5ZTVpcg=="
                         class="social-icon instagram" target="_blank"><i class="ri-instagram-line"></i>
@@ -212,41 +215,45 @@
             </div>
 
             <div class="footer-section">
-                <h3>Links Rápidos</h3>
+                <h3 data-i18n="footer.quickLinks">Links Rápidos</h3>
                 <ul class="footer-links">
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Nossa História</a></li>
-                    <li><a href="#">Núcleos</a></li>
-                    <li><a href="#">Eventos</a></li>
+                    <li><a href="../../index.html" data-i18n="nav.home">Início</a></li>
+                    <li><a href="../historia-do-grupo/index.html" data-i18n="nav.history">Nossa História</a></li>
+                    <li><a href="../nucleos/index.html" data-i18n="nav.nucleos">Núcleos</a></li>
+                    <li><a href="../eventos/index.html" data-i18n="nav.eventos">Eventos</a></li>
                 </ul>
             </div>
 
             <div class="footer-section">
-                <h3>Grupo Candeias</h3>
+                <h3 data-i18n="footer.grupo">Grupo Candeias</h3>
                 <ul class="footer-links">
-                    <li><a href="#">Conselho de Mestres</a></li>
-                    <li><a href="#">Artes Oficiais do Grupo</a></li>
+                    <li><a href="../conselho-de-mestres/index.html" data-i18n="footer.conselho">Conselho de Mestres</a>
+                    </li>
+                    <li><a href="../artes/index.html" data-i18n="footer.artesGrupo">Artes Oficiais do Grupo</a></li>
                 </ul>
             </div>
 
             <div class="footer-section">
-                <h3>Contato</h3>
+                <h3 data-i18n="footer.contato">Contato</h3>
                 <ul class="contact-info footer-links">
                     <li><i class="ri-mail-line"></i> grupocandeiasdecapoeira@gmail.com</li>
                     <li><i class="ri-map-pin-line"></i><a target="_blank"
-                            href="https://maps.app.goo.gl/JmZDb6WYnH6SGiDh6">Associação Candeias de Capoeira</a></li>
+                            href="https://maps.app.goo.gl/JmZDb6WYnH6SGiDh6" data-i18n="footer.association">Associação
+                            Candeias de Capoeira</a></li>
                 </ul>
             </div>
         </div>
 
         <div class="footer-bottom">
-            <p>&copy; 2026 Grupo de Capoeira Candeias. Todos os direitos reservados.</p>
-            <p>Termos de condições de privacidade</p>
+            <p data-i18n="footer.rights">&copy; 2026 Grupo de Capoeira Candeias. Todos os direitos reservados.</p>
+            <p data-i18n="footer.privacy">Termos de condições de privacidade</p>
         </div>
     </footer>
     <!--Fim Rodape-->
-    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo da página"></button>
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo da página"
+        data-i18n-attr="aria-label:common.backToTop"></button>
 
+    <script src="../../js/i18n.js"></script>
     <script src="../../js/script.js"></script>
     <script src="js/script.js"></script>
 
