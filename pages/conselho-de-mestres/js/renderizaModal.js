@@ -26,9 +26,23 @@ export function renderizaModal(botao, dadosMestres) {
   modalAtuacao.textContent = mestre.atuacao;
   modalNacionalidade.textContent = mestre.nacionalidade;
   modalBandeira.src = bandeiraSrc;
-  modalHistoria.textContent = mestre.historia;
+  modalHistoria.textContent = localizaHistoria(mestre.historia);
   modalInicio.textContent = mestre.inicio;
   modalNucleo.textContent = mestre.nucleo;
 
   modal.style.display = 'flex';
+}
+
+// Seleciona a variante da história de acordo com o idioma do navegador.
+// `historia` pode ser uma string (só português, legado) ou um objeto
+// { "pt-BR": "...", "es-PE": "..." }. O idioma vem de <html lang="..">,
+// definido pelo módulo i18n; espanhol cai em es-PE, o resto em pt-BR.
+function localizaHistoria(historia) {
+  if (typeof historia === 'string') return historia;
+  if (!historia || typeof historia !== 'object') return '';
+
+  const htmlLang = (document.documentElement.lang || '').toLowerCase();
+  const lang = htmlLang.startsWith('es') ? 'es-PE' : 'pt-BR';
+
+  return historia[lang] || historia['pt-BR'] || Object.values(historia)[0] || '';
 }
