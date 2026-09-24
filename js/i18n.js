@@ -39,7 +39,10 @@
 
   async function loadLocale(lang) {
     if (cache[lang]) return cache[lang];
-    const res = await fetch(`${ROOT}locales/${lang}.json`);
+    // Os arquivos de locale têm nomes em minúsculas (es-pe.json, pt-br.json).
+    // Em filesystems case-sensitive (Vercel/Linux) o nome precisa bater exatamente,
+    // então normalizamos para minúsculas ao montar a URL do fetch.
+    const res = await fetch(`${ROOT}locales/${lang.toLowerCase()}.json`);
     if (!res.ok) throw new Error(`Falha ao carregar locale: ${lang}`);
     const data = await res.json();
     cache[lang] = data;
