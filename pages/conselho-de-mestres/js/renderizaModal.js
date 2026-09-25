@@ -35,9 +35,9 @@ export function renderizaModal(botao, dadosMestres) {
 
 // Seleciona a variante da história de acordo com o idioma do navegador.
 // `historia` pode ser uma string (só português, legado) ou um objeto
-// { "pt-BR": "...", "es-PE": "...", "en-US": "..." }. O idioma vem de
-// <html lang="..">, definido pelo módulo i18n; espanhol cai em es-PE,
-// inglês em en-US, o resto em pt-BR.
+// { "pt-BR": "...", "es-PE": "...", "en-US": "...", "fr-FR": "..." }.
+// O idioma vem de <html lang="..">, definido pelo módulo i18n; espanhol cai
+// em es-PE, inglês em en-US, francês em fr-FR, o resto em pt-BR.
 function localizaHistoria(historia) {
   if (typeof historia === 'string') return historia;
   if (!historia || typeof historia !== 'object') return '';
@@ -46,6 +46,7 @@ function localizaHistoria(historia) {
   let lang = 'pt-BR';
   if (htmlLang.startsWith('es')) lang = 'es-PE';
   else if (htmlLang.startsWith('en')) lang = 'en-US';
+  else if (htmlLang.startsWith('fr')) lang = 'fr-FR';
 
   return historia[lang] || historia['pt-BR'] || Object.values(historia)[0] || '';
 }
