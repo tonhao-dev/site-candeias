@@ -34,11 +34,12 @@ Site institucional do **Grupo Candeias de Capoeira**. Apresenta a história do g
 ├── js/
 │   ├── script.js              # Comportamento geral (menu, header)
 │   ├── carrosel.js            # Carrossel da home
-│   └── i18n.js                # Internacionalização (PT/ES/EN)
+│   └── i18n.js                # Internacionalização (PT/ES/EN/FR)
 ├── locales/
 │   ├── pt-br.json             # Traduções em português
 │   ├── es-pe.json             # Traduções em espanhol
-│   └── en-us.json             # Traduções em inglês
+│   ├── en-us.json             # Traduções em inglês
+│   └── fr-fr.json             # Traduções em francês
 ├── assets/
 │   ├── icons/                 # Bandeiras dos países (brasil, irlanda, franca, eua, inglaterra)
 │   └── images/                # Logos, fotos de mestres, backgrounds
@@ -62,7 +63,7 @@ A página `pages/conselho-de-mestres/` monta a lista de mestres dinamicamente:
 - **`js/renderizaMestres.js`** — renderiza os cards a partir desses dados.
 - **`js/renderizaModal.js`** — abre o modal com a história de cada mestre, escolhendo a variante de idioma.
 
-A `historia` de cada mestre é um objeto multilíngue `{ "pt-BR": "...", "es-PE": "...", "en-US": "..." }`. O modal lê `document.documentElement.lang` (definido pelo módulo i18n) e escolhe a variante correspondente, caindo em `pt-BR` quando o idioma não existe no registro. Strings simples (formato legado) continuam funcionando.
+A `historia` de cada mestre é um objeto multilíngue `{ "pt-BR": "...", "es-PE": "...", "en-US": "...", "fr-FR": "..." }`. O modal lê `document.documentElement.lang` (definido pelo módulo i18n) e escolhe a variante correspondente, caindo em `pt-BR` quando o idioma não existe no registro. Strings simples (formato legado) continuam funcionando.
 
 Para adicionar ou promover um mestre, edite apenas `mestres.js`. A `bandeira` deve corresponder a um arquivo em `assets/icons/<bandeira>.png` (valores disponíveis: `brasil`, `irlanda`, `franca`, `eua`, `inglaterra`); valores ausentes caem no fallback para `brasil`.
 
@@ -70,13 +71,14 @@ Para adicionar ou promover um mestre, edite apenas `mestres.js`. A `bandeira` de
 
 ## Internacionalização (i18n)
 
-O site suporta **português (pt-BR)**, **espanhol (es-PE)** e **inglês (en-US)**. O idioma é **detectado automaticamente pelo navegador do usuário** (`navigator.languages` / `navigator.language`) — não há seletor manual:
+O site suporta **português (pt-BR)**, **espanhol (es-PE)**, **inglês (en-US)** e **francês (fr-FR)**. O idioma é **detectado automaticamente pelo navegador do usuário** (`navigator.languages` / `navigator.language`) — não há seletor manual:
 
 - locale começando com `es*` → **es-PE**
 - locale começando com `en*` → **en-US**
+- locale começando com `fr*` → **fr-FR**
 - locale começando com `pt*` (ou qualquer outro) → **pt-BR** (padrão)
 
-As traduções ficam em `locales/*.json` com chaves em notação de ponto. Os três arquivos têm exatamente as mesmas chaves — ao adicionar uma chave nova, adicione nos três. **Os nomes de arquivo são minúsculos** (`en-us.json`, não `en-US.json`) porque o host de deploy (Vercel/Linux) é case-sensitive; o módulo normaliza o código do idioma para minúsculas ao montar a URL do `fetch`.
+As traduções ficam em `locales/*.json` com chaves em notação de ponto. Os quatro arquivos têm exatamente as mesmas chaves — ao adicionar uma chave nova, adicione nos quatro. **Os nomes de arquivo são minúsculos** (`fr-fr.json`, não `fr-FR.json`) porque o host de deploy (Vercel/Linux) é case-sensitive; o módulo normaliza o código do idioma para minúsculas ao montar a URL do `fetch`.
 
 No HTML, marque os elementos com:
 
