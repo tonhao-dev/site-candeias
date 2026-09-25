@@ -14,7 +14,7 @@
 
 (function () {
   const DEFAULT_LANG = 'pt-BR';
-  const SUPPORTED = ['pt-BR', 'es-PE'];
+  const SUPPORTED = ['pt-BR', 'es-PE', 'en-US'];
 
   // Calcula a raiz do site a partir do caminho absoluto deste script (/js/i18n.js -> /).
   const scriptEl = document.currentScript;
@@ -24,7 +24,8 @@
   let currentDict = null;
   let applying = false;
 
-  // Detecta o idioma diretamente do navegador. Espanhol -> es-PE, caso contrário pt-BR.
+  // Detecta o idioma diretamente do navegador.
+  // Espanhol -> es-PE, inglês -> en-US, caso contrário pt-BR.
   function detectLang() {
     const prefs = navigator.languages && navigator.languages.length
       ? navigator.languages
@@ -32,6 +33,7 @@
     for (const raw of prefs) {
       const lang = (raw || '').toLowerCase();
       if (lang.startsWith('es')) return 'es-PE';
+      if (lang.startsWith('en')) return 'en-US';
       if (lang.startsWith('pt')) return 'pt-BR';
     }
     return DEFAULT_LANG;
