@@ -12,6 +12,21 @@
     "formaturas": "Graduations",
     "projetos": "Project Model"
   },
+  "meta": {
+    "home": "Grupo Candeias de Capoeira: over 45 years of tradition, culture and discipline. Discover our history, masters, groups and events in Brazil and worldwide.",
+    "history": "The history of Grupo Candeias de Capoeira, from its origins in Goiás in the 1960s to its presence in 13 Brazilian states and 17 countries.",
+    "nucleos": "Find the Grupo Candeias de Capoeira groups across Brazil and around the world and become part of this movement.",
+    "eventos": "Event calendar of Grupo Candeias de Capoeira: gatherings, opens, festivals and capoeira activities.",
+    "conselho": "Meet the Council of Masters of Grupo Candeias de Capoeira, their journeys and graduations.",
+    "artes": "Official artwork of Grupo Candeias de Capoeira for the group's teachers, contramestres and masters.",
+    "galeria": "Photo gallery of Grupo Candeias de Capoeira: moments, rodas, events and graduations.",
+    "graduacoes": "The graduation and cord system of Grupo Candeias de Capoeira.",
+    "formaturas": "Graduations and contramestres of Grupo Candeias de Capoeira.",
+    "projetos": "Social and cultural project model of Grupo Candeias de Capoeira.",
+    "privacidade": "Privacy policy for the Grupo Candeias de Capoeira website: how we handle your data.",
+    "termos": "Terms and conditions of use for the Grupo Candeias de Capoeira website.",
+    "erro404": "Page not found on the Grupo Candeias de Capoeira website."
+  },
   "common": {
     "prev": "Previous",
     "next": "Next",
@@ -25,7 +40,10 @@
     "atuacao": "Based in",
     "nacionalidade": "Nationality",
     "historia": "Story",
-    "nome": "Name"
+    "nome": "Name",
+    "flagAlt": "Flag of {pais}",
+    "flagBrasilAlt": "Flag of Brazil",
+    "suinoAlt": "Master Suíno, founder of Grupo Candeias"
   },
   "footer": {
     "tagline": "Tradition, culture and discipline through the art of capoeira.",
@@ -37,7 +55,8 @@
     "contato": "Contact",
     "association": "Associação Candeias de Capoeira",
     "rights": "© 2026 Grupo de Capoeira Candeias. All rights reserved.",
-    "privacy": "Privacy terms and conditions"
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
   },
   "home": {
     "title": "Home - Candeias",
@@ -170,5 +189,48 @@
     "title": "Graduations - Candeias",
     "contra2": "Contramestres - 2nd DEGREE - brown cord",
     "contra1": "Contramestres - 1st DEGREE - brown and purple cord"
+  },
+  "privacidade": {
+    "title": "Privacy Policy - Candeias",
+    "heading": "Privacy Policy",
+    "updated": "Last updated: October 2026",
+    "introTitle": "1. Introduction",
+    "introText": "This Privacy Policy describes how Grupo Candeias de Capoeira handles the information collected through this website. By browsing this site, you agree to the practices described below.",
+    "dataTitle": "2. Information we collect",
+    "dataText": "This is a static, institutional website. We do not require registration nor collect personal data through forms. We may automatically collect anonymous browsing data (such as pages visited and device type) through analytics tools.",
+    "cookiesTitle": "3. Cookies and analytics",
+    "cookiesText": "We use Google Analytics to understand how visitors use the site. This tool may use cookies and collect usage data in an aggregated, anonymous form. You can disable cookies in your browser settings.",
+    "thirdTitle": "4. Third-party services",
+    "thirdText": "The site uses external services (Google Analytics, maps, social networks and embedded links). These services have their own privacy policies, for which we are not responsible.",
+    "rightsTitle": "5. Your rights",
+    "rightsText": "You have the right to request information about any data that may be processed. As we do not collect personally identifiable data, there is usually no data to provide, but you may contact us at any time.",
+    "contactTitle": "6. Contact",
+    "contactText": "If you have any questions about this Privacy Policy, contact us by email:"
+  },
+  "termos": {
+    "title": "Terms & Conditions - Candeias",
+    "heading": "Terms & Conditions of Use",
+    "updated": "Last updated: October 2026",
+    "introTitle": "1. Acceptance of terms",
+    "introText": "By accessing and using this website, you agree to these Terms & Conditions of Use. If you do not agree, please do not use the site.",
+    "useTitle": "2. Use of the site",
+    "useText": "This site is institutional and informational in nature, about Grupo Candeias de Capoeira. The content is provided for informational and cultural purposes only.",
+    "ipTitle": "3. Intellectual property",
+    "ipText": "All content on this site — text, logos, images, photographs and graphic materials — belongs to Grupo Candeias de Capoeira or is used with permission. Reproduction, distribution or commercial use without prior written authorization is prohibited.",
+    "linksTitle": "4. External links",
+    "linksText": "This site may contain links to third-party sites (social networks, maps, videos). We are not responsible for the content or privacy practices of those sites.",
+    "liabilityTitle": "5. Limitation of liability",
+    "liabilityText": "We strive to keep information up to date and accurate, but we do not guarantee that the site is free of errors or always available. Use of the site is at your own risk.",
+    "changesTitle": "6. Changes",
+    "changesText": "We may update these Terms & Conditions at any time. Changes take effect once published on this site.",
+    "contactTitle": "7. Contact",
+    "contactText": "If you have any questions about these Terms, contact us by email:"
+  },
+  "errors": {
+    "e404Title": "Page not found - Candeias",
+    "e404Code": "404",
+    "e404Heading": "Page not found",
+    "e404Text": "The page you are looking for does not exist or has been moved. Check the address or go back to the home page.",
+    "e404Button": "Back to home"
   }
 }

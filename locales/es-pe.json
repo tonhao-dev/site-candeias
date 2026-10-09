@@ -12,6 +12,21 @@
     "formaturas": "Graduaciones",
     "projetos": "Modelo de Proyectos"
   },
+  "meta": {
+    "home": "Grupo Candeias de Capoeira: más de 45 años de tradición, cultura y disciplina. Conoce nuestra historia, maestros, núcleos y eventos en Brasil y en el mundo.",
+    "history": "La historia del Grupo Candeias de Capoeira, desde sus orígenes en Goiás en los años 1960 hasta su presencia en 13 estados de Brasil y 17 países.",
+    "nucleos": "Encuentra los núcleos del Grupo Candeias de Capoeira repartidos por Brasil y el mundo y forma parte de este movimiento.",
+    "eventos": "Agenda de eventos del Grupo Candeias de Capoeira: encuentros, opens, festivales y actividades de capoeira.",
+    "conselho": "Conoce el Consejo de Maestros del Grupo Candeias de Capoeira, sus trayectorias y graduaciones.",
+    "artes": "Artes oficiales del Grupo Candeias de Capoeira para profesores, contramaestres y maestros del grupo.",
+    "galeria": "Galería de fotos del Grupo Candeias de Capoeira: momentos, rodas, eventos y graduaciones.",
+    "graduacoes": "Sistema de graduaciones y cuerdas del Grupo Candeias de Capoeira.",
+    "formaturas": "Graduaciones y contramaestres del Grupo Candeias de Capoeira.",
+    "projetos": "Modelo de proyectos sociales y culturales del Grupo Candeias de Capoeira.",
+    "privacidade": "Política de privacidad del sitio del Grupo Candeias de Capoeira: cómo tratamos tus datos.",
+    "termos": "Términos y condiciones de uso del sitio del Grupo Candeias de Capoeira.",
+    "erro404": "Página no encontrada en el sitio del Grupo Candeias de Capoeira."
+  },
   "common": {
     "prev": "Anterior",
     "next": "Siguiente",
@@ -25,7 +40,10 @@
     "atuacao": "Actuación",
     "nacionalidade": "Nacionalidad",
     "historia": "Historia",
-    "nome": "Nombre"
+    "nome": "Nombre",
+    "flagAlt": "Bandera de {pais}",
+    "flagBrasilAlt": "Bandera de Brasil",
+    "suinoAlt": "Maestro Suíno, fundador del Grupo Candeias"
   },
   "footer": {
     "tagline": "Tradición, cultura y disciplina a través del arte de la capoeira.",
@@ -37,7 +55,8 @@
     "contato": "Contacto",
     "association": "Asociación Candeias de Capoeira",
     "rights": "© 2026 Grupo de Capoeira Candeias. Todos los derechos reservados.",
-    "privacy": "Términos y condiciones de privacidad"
+    "privacy": "Política de Privacidad",
+    "terms": "Términos y Condiciones"
   },
   "home": {
     "title": "Inicio - Candeias",
@@ -170,5 +189,48 @@
     "title": "Graduaciones - Candeias",
     "contra2": "Contramaestros - 2.º GRADO - cuerda marrón",
     "contra1": "Contramaestros - 1.er GRADO - cuerda marrón y morada"
+  },
+  "privacidade": {
+    "title": "Política de Privacidad - Candeias",
+    "heading": "Política de Privacidad",
+    "updated": "Última actualización: octubre de 2026",
+    "introTitle": "1. Introducción",
+    "introText": "Esta Política de Privacidad describe cómo el Grupo Candeias de Capoeira trata la información recopilada a través de este sitio. Al navegar por este sitio, aceptas las prácticas descritas a continuación.",
+    "dataTitle": "2. Información que recopilamos",
+    "dataText": "Este es un sitio institucional y estático. No solicitamos registro ni recopilamos datos personales mediante formularios. Podemos recopilar automáticamente datos de navegación anónimos (como las páginas visitadas y el tipo de dispositivo) mediante herramientas de análisis.",
+    "cookiesTitle": "3. Cookies y análisis",
+    "cookiesText": "Utilizamos Google Analytics para entender cómo los visitantes usan el sitio. Esta herramienta puede usar cookies y recopilar datos de uso de forma agregada y anónima. Puedes desactivar las cookies en la configuración de tu navegador.",
+    "thirdTitle": "4. Servicios de terceros",
+    "thirdText": "El sitio utiliza servicios externos (Google Analytics, mapas, redes sociales y enlaces incrustados). Estos servicios tienen sus propias políticas de privacidad, de las que no nos responsabilizamos.",
+    "rightsTitle": "5. Tus derechos",
+    "rightsText": "Tienes derecho a solicitar información sobre los datos que pudieran tratarse. Como no recopilamos datos personales identificables, normalmente no hay datos que proporcionar, pero puedes contactarnos en cualquier momento.",
+    "contactTitle": "6. Contacto",
+    "contactText": "Si tienes dudas sobre esta Política de Privacidad, contáctanos por correo electrónico:"
+  },
+  "termos": {
+    "title": "Términos y Condiciones - Candeias",
+    "heading": "Términos y Condiciones de Uso",
+    "updated": "Última actualización: octubre de 2026",
+    "introTitle": "1. Aceptación de los términos",
+    "introText": "Al acceder y utilizar este sitio, aceptas estos Términos y Condiciones de Uso. Si no estás de acuerdo, te pedimos que no utilices el sitio.",
+    "useTitle": "2. Uso del sitio",
+    "useText": "Este sitio tiene carácter institucional e informativo sobre el Grupo Candeias de Capoeira. El contenido se ofrece únicamente con fines informativos y culturales.",
+    "ipTitle": "3. Propiedad intelectual",
+    "ipText": "Todo el contenido de este sitio —textos, logotipos, imágenes, fotografías y materiales gráficos— pertenece al Grupo Candeias de Capoeira o se utiliza con autorización. Queda prohibida la reproducción, distribución o uso comercial sin autorización previa por escrito.",
+    "linksTitle": "4. Enlaces externos",
+    "linksText": "Este sitio puede contener enlaces a sitios de terceros (redes sociales, mapas, vídeos). No nos responsabilizamos del contenido ni de las prácticas de privacidad de esos sitios.",
+    "liabilityTitle": "5. Limitación de responsabilidad",
+    "liabilityText": "Procuramos mantener la información actualizada y correcta, pero no garantizamos que el sitio esté libre de errores o siempre disponible. El uso del sitio es responsabilidad tuya.",
+    "changesTitle": "6. Cambios",
+    "changesText": "Podemos actualizar estos Términos y Condiciones en cualquier momento. Los cambios entran en vigor a partir de su publicación en este sitio.",
+    "contactTitle": "7. Contacto",
+    "contactText": "Si tienes dudas sobre estos Términos, contáctanos por correo electrónico:"
+  },
+  "errors": {
+    "e404Title": "Página no encontrada - Candeias",
+    "e404Code": "404",
+    "e404Heading": "Página no encontrada",
+    "e404Text": "La página que buscas no existe o fue movida. Verifica la dirección o vuelve a la página de inicio.",
+    "e404Button": "Volver al inicio"
   }
 }

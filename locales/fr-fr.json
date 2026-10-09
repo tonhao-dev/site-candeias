@@ -12,6 +12,21 @@
     "formaturas": "Remises de diplômes",
     "projetos": "Modèle de projets"
   },
+  "meta": {
+    "home": "Grupo Candeias de Capoeira : plus de 45 ans de tradition, de culture et de discipline. Découvrez notre histoire, nos maîtres, nos groupes et nos événements au Brésil et dans le monde.",
+    "history": "L'histoire du Grupo Candeias de Capoeira, de ses origines à Goiás dans les années 1960 à sa présence dans 13 États du Brésil et 17 pays.",
+    "nucleos": "Trouvez les groupes du Grupo Candeias de Capoeira présents au Brésil et dans le monde et rejoignez ce mouvement.",
+    "eventos": "Agenda des événements du Grupo Candeias de Capoeira : rencontres, opens, festivals et activités de capoeira.",
+    "conselho": "Découvrez le Conseil des Maîtres du Grupo Candeias de Capoeira, leurs parcours et leurs graduations.",
+    "artes": "Arts officiels du Grupo Candeias de Capoeira pour les professeurs, contre-maîtres et maîtres du groupe.",
+    "galeria": "Galerie de photos du Grupo Candeias de Capoeira : moments, rodas, événements et remises de diplômes.",
+    "graduacoes": "Le système de graduations et de cordes du Grupo Candeias de Capoeira.",
+    "formaturas": "Remises de diplômes et contre-maîtres du Grupo Candeias de Capoeira.",
+    "projetos": "Modèle de projets sociaux et culturels du Grupo Candeias de Capoeira.",
+    "privacidade": "Politique de confidentialité du site du Grupo Candeias de Capoeira : comment nous traitons vos données.",
+    "termos": "Conditions générales d'utilisation du site du Grupo Candeias de Capoeira.",
+    "erro404": "Page introuvable sur le site du Grupo Candeias de Capoeira."
+  },
   "common": {
     "prev": "Précédent",
     "next": "Suivant",
@@ -25,7 +40,10 @@
     "atuacao": "Lieu d'activité",
     "nacionalidade": "Nationalité",
     "historia": "Histoire",
-    "nome": "Nom"
+    "nome": "Nom",
+    "flagAlt": "Drapeau de {pais}",
+    "flagBrasilAlt": "Drapeau du Brésil",
+    "suinoAlt": "Maître Suíno, fondateur du Grupo Candeias"
   },
   "footer": {
     "tagline": "Tradition, culture et discipline à travers l'art de la capoeira.",
@@ -37,7 +55,8 @@
     "contato": "Contact",
     "association": "Associação Candeias de Capoeira",
     "rights": "© 2026 Grupo de Capoeira Candeias. Tous droits réservés.",
-    "privacy": "Conditions de confidentialité"
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions générales"
   },
   "home": {
     "title": "Accueil - Candeias",
@@ -170,5 +189,48 @@
     "title": "Remises de diplômes - Candeias",
     "contra2": "Contramestres - 2e DEGRÉ - corde marron",
     "contra1": "Contramestres - 1er DEGRÉ - corde marron et violette"
+  },
+  "privacidade": {
+    "title": "Politique de confidentialité - Candeias",
+    "heading": "Politique de confidentialité",
+    "updated": "Dernière mise à jour : octobre 2026",
+    "introTitle": "1. Introduction",
+    "introText": "Cette politique de confidentialité décrit comment le Grupo Candeias de Capoeira traite les informations recueillies via ce site. En naviguant sur ce site, vous acceptez les pratiques décrites ci-dessous.",
+    "dataTitle": "2. Informations que nous recueillons",
+    "dataText": "Il s'agit d'un site institutionnel et statique. Nous ne demandons aucune inscription et ne recueillons aucune donnée personnelle via des formulaires. Nous pouvons recueillir automatiquement des données de navigation anonymes (pages visitées, type d'appareil) au moyen d'outils d'analyse.",
+    "cookiesTitle": "3. Cookies et analyse",
+    "cookiesText": "Nous utilisons Google Analytics pour comprendre comment les visiteurs utilisent le site. Cet outil peut utiliser des cookies et recueillir des données d'usage de façon agrégée et anonyme. Vous pouvez désactiver les cookies dans les paramètres de votre navigateur.",
+    "thirdTitle": "4. Services tiers",
+    "thirdText": "Le site utilise des services externes (Google Analytics, cartes, réseaux sociaux et liens intégrés). Ces services disposent de leurs propres politiques de confidentialité, dont nous ne sommes pas responsables.",
+    "rightsTitle": "5. Vos droits",
+    "rightsText": "Vous avez le droit de demander des informations sur les données éventuellement traitées. Comme nous ne recueillons pas de données personnelles identifiables, il n'y a généralement aucune donnée à fournir, mais vous pouvez nous contacter à tout moment.",
+    "contactTitle": "6. Contact",
+    "contactText": "Pour toute question concernant cette politique de confidentialité, contactez-nous par e-mail :"
+  },
+  "termos": {
+    "title": "Conditions générales - Candeias",
+    "heading": "Conditions générales d'utilisation",
+    "updated": "Dernière mise à jour : octobre 2026",
+    "introTitle": "1. Acceptation des conditions",
+    "introText": "En accédant à ce site et en l'utilisant, vous acceptez les présentes conditions générales d'utilisation. Si vous n'êtes pas d'accord, nous vous demandons de ne pas utiliser le site.",
+    "useTitle": "2. Utilisation du site",
+    "useText": "Ce site a un caractère institutionnel et informatif sur le Grupo Candeias de Capoeira. Le contenu est fourni uniquement à des fins informatives et culturelles.",
+    "ipTitle": "3. Propriété intellectuelle",
+    "ipText": "Tout le contenu de ce site — textes, logos, images, photographies et éléments graphiques — appartient au Grupo Candeias de Capoeira ou est utilisé avec autorisation. Toute reproduction, distribution ou utilisation commerciale sans autorisation écrite préalable est interdite.",
+    "linksTitle": "4. Liens externes",
+    "linksText": "Ce site peut contenir des liens vers des sites tiers (réseaux sociaux, cartes, vidéos). Nous ne sommes pas responsables du contenu ni des pratiques de confidentialité de ces sites.",
+    "liabilityTitle": "5. Limitation de responsabilité",
+    "liabilityText": "Nous nous efforçons de maintenir des informations à jour et exactes, mais nous ne garantissons pas que le site soit exempt d'erreurs ou toujours disponible. L'utilisation du site se fait sous votre responsabilité.",
+    "changesTitle": "6. Modifications",
+    "changesText": "Nous pouvons mettre à jour ces conditions générales à tout moment. Les modifications prennent effet dès leur publication sur ce site.",
+    "contactTitle": "7. Contact",
+    "contactText": "Pour toute question concernant ces conditions, contactez-nous par e-mail :"
+  },
+  "errors": {
+    "e404Title": "Page introuvable - Candeias",
+    "e404Code": "404",
+    "e404Heading": "Page introuvable",
+    "e404Text": "La page que vous recherchez n'existe pas ou a été déplacée. Vérifiez l'adresse ou revenez à la page d'accueil.",
+    "e404Button": "Retour à l'accueil"
   }
 }

@@ -23,13 +23,17 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <title data-i18n="projetos.title">Projetos - Candeias</title>
+    <meta name="description"
+        content="Modelo de projetos sociais e culturais do Grupo Candeias de Capoeira."
+        data-i18n-attr="content:meta.projetos">
+
 </head>
 
 <body>
     <header class="header">
         <nav class="nav container-width">
             <a href="index.html" class="logo">
-                <img src="../../assets/images/logo/logo.png" alt="">
+                <img src="../../assets/images/logo/logo.png" alt="Logo Grupo Candeias" data-i18n-attr="alt:common.logoAlt">
             </a>
             <button class="hamburger"></button>
             <ul class="nav-list" data-aos="fade-up" data-aos-delay="300">
@@ -142,7 +146,11 @@
 
         <div class="footer-bottom">
             <p data-i18n="footer.rights">&copy; 2026 Grupo de Capoeira Candeias. Todos os direitos reservados.</p>
-            <p data-i18n="footer.privacy">Termos de condições de privacidade</p>
+            <p class="footer-legal-links">
+                <a href="../privacidade/index.html" data-i18n="footer.privacy">Política de Privacidade</a>
+                <span class="footer-sep">·</span>
+                <a href="../termos/index.html" data-i18n="footer.terms">Termos e Condições</a>
+            </p>
         </div>
     </footer>
     <!--Fim Rodape-->

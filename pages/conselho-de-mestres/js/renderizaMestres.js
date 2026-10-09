@@ -42,7 +42,7 @@ export function renderizaMestres(grauMestres, mestres) {
           <p data-i18n="common.saibaMais">Saiba Mais</p>
         </div>
         <div class="flag-member">
-          <img src="../../assets/icons/${(mestre.bandeira || 'brasil')}.png">
+          <img src="../../assets/icons/${(mestre.bandeira || 'brasil')}.png" alt="${mestre.pais ? 'Bandeira - ' + mestre.pais : 'Bandeira do Brasil'}">
         </div>
       </div>
     `;
