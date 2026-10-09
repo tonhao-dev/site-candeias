@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Caminhos absolutos a partir da raiz: um 404 pode ocorrer em qualquer profundidade de URL. -->
+    <link rel="icon" href="/assets/images/logo/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/variables.css">
+
+    <title data-i18n="errors.e404Title">Página não encontrada - Candeias</title>
+    <meta name="description" content="Página não encontrada no site do Grupo Candeias de Capoeira."
+        data-i18n-attr="content:meta.erro404">
+    <meta name="robots" content="noindex">
+
+    <style>
+        .error-main {
+            background-color: var(--cor-fundo);
+            color: var(--cor-texto);
+            min-height: 100dvh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem 1.25rem;
+            font-family: var(--fonte-principal);
+        }
+
+        .error-main img.error-logo {
+            width: 120px;
+            max-width: 40vw;
+            margin-bottom: 1.5rem;
+        }
+
+        .error-code {
+            font-size: clamp(4rem, 18vw, 9rem);
+            font-weight: var(--font-bold-titulo);
+            line-height: 1;
+            color: var(--cor-primaria);
+            margin: 0;
+        }
+
+        .error-heading {
+            font-size: var(--fs-titulo);
+            font-weight: var(--font-bold-subtitulo);
+            margin: 0.5rem 0 1rem;
+        }
+
+        .error-text {
+            font-size: var(--fs-normal);
+            max-width: 560px;
+            margin: 0 auto 2rem;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+
+        .error-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background-color: var(--cor-primaria);
+            color: var(--cor-fundo);
+            font-weight: var(--font-bold-button);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-decoration: none;
+            padding: 0.85rem 2rem;
+            border-radius: 6px;
+            transition: 0.3s all;
+        }
+
+        .error-button:hover {
+            background-color: var(--cor-primaria-hover);
+            color: var(--cor-fundo);
+        }
+    </style>
+</head>
+
+<body>
+    <main class="error-main">
+        <img class="error-logo" src="/assets/images/logo/logo.png" alt="Logo Grupo Candeias"
+            data-i18n-attr="alt:common.logoAlt">
+        <p class="error-code" data-i18n="errors.e404Code">404</p>
+        <h1 class="error-heading" data-i18n="errors.e404Heading">Página não encontrada</h1>
+        <p class="error-text" data-i18n="errors.e404Text">A página que você procura não existe ou foi movida. Verifique
+            o endereço ou volte para a página inicial.</p>
+        <a class="error-button" href="/index.html">
+            <i class="ri-home-4-line"></i>
+            <span data-i18n="errors.e404Button">Voltar ao início</span>
+        </a>
+    </main>
+
+    <script src="/js/i18n.js"></script>
+</body>
+
+</html>

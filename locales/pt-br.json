@@ -12,6 +12,21 @@
     "formaturas": "Formaturas",
     "projetos": "Modelo de Projetos"
   },
+  "meta": {
+    "home": "Grupo Candeias de Capoeira: mais de 45 anos de tradição, cultura e disciplina. Conheça nossa história, mestres, núcleos e eventos no Brasil e no mundo.",
+    "history": "A história do Grupo Candeias de Capoeira, de suas origens em Goiás nos anos 1960 à presença em 13 estados do Brasil e 17 países.",
+    "nucleos": "Encontre os núcleos do Grupo Candeias de Capoeira espalhados pelo Brasil e pelo mundo e faça parte deste movimento.",
+    "eventos": "Agenda de eventos do Grupo Candeias de Capoeira: encontros, opens, festivais e atividades da capoeira.",
+    "conselho": "Conheça o Conselho de Mestres do Grupo Candeias de Capoeira, suas trajetórias e graduações.",
+    "artes": "Artes oficiais do Grupo Candeias de Capoeira para professores, contramestres e mestres do grupo.",
+    "galeria": "Galeria de fotos do Grupo Candeias de Capoeira: momentos, rodas, eventos e formaturas.",
+    "graduacoes": "Sistema de graduações e cordas do Grupo Candeias de Capoeira.",
+    "formaturas": "Formaturas e contramestres do Grupo Candeias de Capoeira.",
+    "projetos": "Modelo de projetos sociais e culturais do Grupo Candeias de Capoeira.",
+    "privacidade": "Política de privacidade do site do Grupo Candeias de Capoeira: como tratamos os seus dados.",
+    "termos": "Termos e condições de uso do site do Grupo Candeias de Capoeira.",
+    "erro404": "Página não encontrada no site do Grupo Candeias de Capoeira."
+  },
   "common": {
     "prev": "Anterior",
     "next": "Próximo",
@@ -25,7 +40,10 @@
     "atuacao": "Atuação",
     "nacionalidade": "Nacionalidade",
     "historia": "História",
-    "nome": "Nome"
+    "nome": "Nome",
+    "flagAlt": "Bandeira de {pais}",
+    "flagBrasilAlt": "Bandeira do Brasil",
+    "suinoAlt": "Mestre Suíno, fundador do Grupo Candeias"
   },
   "footer": {
     "tagline": "Tradição, cultura e disciplina através da arte da capoeira.",
@@ -37,7 +55,8 @@
     "contato": "Contato",
     "association": "Associação Candeias de Capoeira",
     "rights": "© 2026 Grupo de Capoeira Candeias. Todos os direitos reservados.",
-    "privacy": "Termos de condições de privacidade"
+    "privacy": "Política de Privacidade",
+    "terms": "Termos e Condições"
   },
   "home": {
     "title": "Inicial - Candeias",
@@ -170,5 +189,48 @@
     "title": "Formaturas - Candeias",
     "contra2": "contraMestres - 2° GRAU - corda marrom",
     "contra1": "contraMestres - 1° GRAU - corda marrom e roxa"
+  },
+  "privacidade": {
+    "title": "Política de Privacidade - Candeias",
+    "heading": "Política de Privacidade",
+    "updated": "Última atualização: outubro de 2026",
+    "introTitle": "1. Introdução",
+    "introText": "Esta Política de Privacidade descreve como o Grupo Candeias de Capoeira trata as informações coletadas através deste site. Ao navegar neste site, você concorda com as práticas descritas abaixo.",
+    "dataTitle": "2. Informações que coletamos",
+    "dataText": "Este é um site institucional e estático. Não solicitamos cadastro nem coletamos dados pessoais através de formulários. Podemos coletar automaticamente dados de navegação anônimos (como páginas visitadas e tipo de dispositivo) por meio de ferramentas de análise.",
+    "cookiesTitle": "3. Cookies e análise",
+    "cookiesText": "Utilizamos o Google Analytics para entender como os visitantes usam o site. Essa ferramenta pode usar cookies e coletar dados de uso de forma agregada e anônima. Você pode desativar os cookies nas configurações do seu navegador.",
+    "thirdTitle": "4. Serviços de terceiros",
+    "thirdText": "O site utiliza serviços externos (Google Analytics, mapas, redes sociais e links incorporados). Esses serviços possuem suas próprias políticas de privacidade, pelas quais não nos responsabilizamos.",
+    "rightsTitle": "5. Seus direitos",
+    "rightsText": "Nos termos da Lei Geral de Proteção de Dados (LGPD), você tem o direito de solicitar informações sobre eventuais dados tratados. Como não coletamos dados pessoais identificáveis, normalmente não há dados a fornecer, mas você pode entrar em contato conosco a qualquer momento.",
+    "contactTitle": "6. Contato",
+    "contactText": "Em caso de dúvidas sobre esta Política de Privacidade, entre em contato pelo e-mail:"
+  },
+  "termos": {
+    "title": "Termos e Condições - Candeias",
+    "heading": "Termos e Condições de Uso",
+    "updated": "Última atualização: outubro de 2026",
+    "introTitle": "1. Aceitação dos termos",
+    "introText": "Ao acessar e utilizar este site, você concorda com estes Termos e Condições de Uso. Caso não concorde, pedimos que não utilize o site.",
+    "useTitle": "2. Uso do site",
+    "useText": "Este site tem caráter institucional e informativo sobre o Grupo Candeias de Capoeira. O conteúdo é disponibilizado apenas para fins informativos e culturais.",
+    "ipTitle": "3. Propriedade intelectual",
+    "ipText": "Todo o conteúdo deste site — textos, logotipos, imagens, fotografias e materiais gráficos — pertence ao Grupo Candeias de Capoeira ou é utilizado com autorização. É proibida a reprodução, distribuição ou uso comercial sem autorização prévia por escrito.",
+    "linksTitle": "4. Links externos",
+    "linksText": "Este site pode conter links para sites de terceiros (redes sociais, mapas, vídeos). Não nos responsabilizamos pelo conteúdo nem pelas práticas de privacidade desses sites.",
+    "liabilityTitle": "5. Limitação de responsabilidade",
+    "liabilityText": "Procuramos manter as informações atualizadas e corretas, mas não garantimos que o site esteja livre de erros ou sempre disponível. O uso do site é de sua responsabilidade.",
+    "changesTitle": "6. Alterações",
+    "changesText": "Podemos atualizar estes Termos e Condições a qualquer momento. As alterações passam a valer a partir da sua publicação neste site.",
+    "contactTitle": "7. Contato",
+    "contactText": "Em caso de dúvidas sobre estes Termos, entre em contato pelo e-mail:"
+  },
+  "errors": {
+    "e404Title": "Página não encontrada - Candeias",
+    "e404Code": "404",
+    "e404Heading": "Página não encontrada",
+    "e404Text": "A página que você procura não existe ou foi movida. Verifique o endereço ou volte para a página inicial.",
+    "e404Button": "Voltar ao início"
   }
 }
