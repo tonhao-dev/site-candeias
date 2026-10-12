@@ -182,7 +182,7 @@ export const dadosMestres = {
       inicio: "1985",
       pais: "Brasil",
       bandeira: "brasil",
-      img: "../../assets/images/logo/logo2.png",
+      img: "../../assets/images/conselho-mestres/Membros/amazonas.png",
       nucleo: "Goiânia - Goiás",
       historia: {
         "pt-BR": "Nasci em Goiânia em 1969 e comecei a treinar capoeira em 1985 no Grupo São Bento Pequeno, criado pelo Mestre Passarinho. Em 1988, participei de uma seletiva para um campeonato brasileiro, onde conheci o Mestre Suíno, que me convidou para treinar no seu grupo. Em 1989 entrei para o Grupo Anglo Regional do SESC, antigo nome do Grupo Candeias. Fui pioneira como mulher em várias conquistas, como o primeiro salto mortal feminino em evento oficial (1995) e o primeiro batizado feminino do grupo. Participei de muitos campeonatos, apresentações e viagens, nacionais e internacionais. Atualmente, me preparo para ser Mestra no grupo, focando no ensino da capoeira com qualidade e respeito aos fundamentos da arte.",
@@ -286,7 +286,7 @@ export const dadosMestres = {
       inicio: "",
       pais: "Brasil",
       bandeira: "brasil",
-      img: "../../assets/images/logo/logo2.png",
+      img: "../../assets/images/conselho-mestres/Membros/tati.png",
       nucleo: "Cuiabá - Mato Grosso",
       historia: {
         "pt-BR": "Em breve.",
@@ -456,7 +456,7 @@ export const dadosMestres = {
       inicio: "1986",
       pais: "Brasil",
       bandeira: "brasil",
-      img: "../../assets/images/logo/logo2.png",
+      img: "../../assets/images/conselho-mestres/Membros/besouro2.png",
       nucleo: "Anápolis - Goiás",
       historia: {
         "pt-BR": "Meu primeiro contato com a capoeira foi em 1986, aos 15 anos, em um desfile. Comecei a treinar em 1987 com o Mestre Tuísca, do grupo Flor da Gente, e depois com Mestre Espiga até 1988. Participei do Festival Anapolino de Capoeira, com presença de grupos importantes. Depois de um afastamento, voltei em 1992-93 quando Mestre Suíno ensinava capoeira para jogadores de futebol em Anápolis. Em 1993 entrei no Grupo Candeias, onde tive contato com grandes mestres e fiz várias viagens e excursões. Minhas maiores conquistas foram a reflexão pessoal e o aprimoramento do ensino da capoeira. Tenho grande gratidão pelo Mestre Suíno e pelo Grupo Candeias, onde atuo há quase 30 anos.",
@@ -490,7 +490,7 @@ export const dadosMestres = {
       inicio: "2022",
       pais: "Brasil",
       bandeira: "brasil",
-      img: "../../assets/images/logo/logo2.png",
+      img: "../../assets/images/conselho-mestres/Membros/dende.png",
       nucleo: "Goiânia - Goiás",
       historia: {
         "pt-BR": "Em breve.",
@@ -524,7 +524,7 @@ export const dadosMestres = {
       inicio: "2021",
       pais: "Brasil",
       bandeira: "brasil",
-      img: "../../assets/images/logo/logo2.png",
+      img: "../../assets/images/conselho-mestres/Membros/biliu.png",
       nucleo: "Gama - Distrito Federal",
       historia: {
         "pt-BR": "Em breve.",
