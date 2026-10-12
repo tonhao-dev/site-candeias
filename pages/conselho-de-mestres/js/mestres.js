@@ -228,23 +228,6 @@ export const dadosMestres = {
   ],
   vermelha: [
     {
-      id: "casagrande",
-      nome: "Aparecido Corrêa da Silva",
-      apelido: "Mestre Casa Grande",
-      instagram: "aparecidocasagra",
-      inicio: "1986",
-      pais: "Brasil",
-      bandeira: "brasil",
-      img: "../../assets/images/logo/logo2.png",
-      nucleo: "Goiânia - Goiás",
-      historia: {
-        "pt-BR": "Comecei a capoeira em 1986 na Praça do Chafariz, na Cidade de Goiás, com capoeiristas locais. O ensino era por livros e ajuda de professores como Chuluca, Chando, Leninho e Ibéria. O grupo cresceu, com o policial Pajé assumindo os treinos e formando o Grupo São Bento Pequeno. Em 1995, mudei para Goiânia, onde conheci o mestre Suíno e entrei no Grupo Candeias. Participei de vários eventos e graduações, dei aulas no Jardim Nova Esperança e montei minha academia em 2010. Em 2019, receberei a corda de mestre pelo Grupo Candeias, entregue pelo mestre Suíno.",
-        "es-PE": "Comencé la capoeira en 1986 en la Praça do Chafariz, en la Cidade de Goiás, con capoeiristas locales. La enseñanza era por libros y con la ayuda de profesores como Chuluca, Chando, Leninho e Ibéria. El grupo creció, con el policía Pajé asumiendo los entrenamientos y formando el Grupo São Bento Pequeno. En 1995, me mudé a Goiânia, donde conocí al maestro Suíno y entré al Grupo Candeias. Participé en varios eventos y graduaciones, di clases en el Jardim Nova Esperança y monté mi academia en 2010. En 2019, recibiré el cordón de maestro por el Grupo Candeias, entregado por el maestro Suíno.",
-        "en-US": "I started capoeira in 1986 at the Praça do Chafariz, in the Cidade de Goiás, with local capoeiristas. The teaching was through books and the help of instructors such as Chuluca, Chando, Leninho, and Ibéria. The group grew, with the police officer Pajé taking over the training and forming Grupo São Bento Pequeno. In 1995, I moved to Goiânia, where I met Mestre Suíno and joined Grupo Candeias. I took part in various events and graduations, taught classes in the Jardim Nova Esperança, and set up my own gym in 2010. In 2019, I will receive the master's cord from Grupo Candeias, presented by Mestre Suíno.",
-        "fr-FR": "J'ai commencé la capoeira en 1986 sur la Praça do Chafariz, à Cidade de Goiás, avec des capoeiristes locaux. L'apprentissage se faisait grâce à des livres et à l'aide de professeurs comme Chuluca, Chando, Leninho et Ibéria. Le groupe a grandi, avec le policier Pajé qui a pris en charge les entraînements et a formé le Grupo São Bento Pequeno. En 1995, j'ai déménagé à Goiânia, où j'ai rencontré le maître Suíno et où j'ai intégré le Grupo Candeias. J'ai participé à plusieurs événements et graduations, j'ai donné des cours au Jardim Nova Esperança et j'ai monté ma propre salle en 2010. En 2019, je recevrai la corda de maître du Grupo Candeias, remise par le maître Suíno.",
-      },
-    },
-    {
       id: "dende",
       nome: "Marcia Regina Das Neves Almeida",
       apelido: "Mestra Dendê",
@@ -378,6 +361,23 @@ export const dadosMestres = {
         "es-PE": "Próximamente.",
         "en-US": "Coming soon.",
         "fr-FR": "Bientôt disponible.",
+      },
+    },
+    {
+      id: "casagrande",
+      nome: "Aparecido Corrêa da Silva",
+      apelido: "Mestre Casa Grande",
+      instagram: "aparecidocasagra",
+      inicio: "1986",
+      pais: "Brasil",
+      bandeira: "brasil",
+      img: "../../assets/images/logo/logo2.png",
+      nucleo: "Goiânia - Goiás",
+      historia: {
+        "pt-BR": "Comecei a capoeira em 1986 na Praça do Chafariz, na Cidade de Goiás, com capoeiristas locais. O ensino era por livros e ajuda de professores como Chuluca, Chando, Leninho e Ibéria. O grupo cresceu, com o policial Pajé assumindo os treinos e formando o Grupo São Bento Pequeno. Em 1995, mudei para Goiânia, onde conheci o mestre Suíno e entrei no Grupo Candeias. Participei de vários eventos e graduações, dei aulas no Jardim Nova Esperança e montei minha academia em 2010. Em 2019, receberei a corda de mestre pelo Grupo Candeias, entregue pelo mestre Suíno.",
+        "es-PE": "Comencé la capoeira en 1986 en la Praça do Chafariz, en la Cidade de Goiás, con capoeiristas locales. La enseñanza era por libros y con la ayuda de profesores como Chuluca, Chando, Leninho e Ibéria. El grupo creció, con el policía Pajé asumiendo los entrenamientos y formando el Grupo São Bento Pequeno. En 1995, me mudé a Goiânia, donde conocí al maestro Suíno y entré al Grupo Candeias. Participé en varios eventos y graduaciones, di clases en el Jardim Nova Esperança y monté mi academia en 2010. En 2019, recibiré el cordón de maestro por el Grupo Candeias, entregado por el maestro Suíno.",
+        "en-US": "I started capoeira in 1986 at the Praça do Chafariz, in the Cidade de Goiás, with local capoeiristas. The teaching was through books and the help of instructors such as Chuluca, Chando, Leninho, and Ibéria. The group grew, with the police officer Pajé taking over the training and forming Grupo São Bento Pequeno. In 1995, I moved to Goiânia, where I met Mestre Suíno and joined Grupo Candeias. I took part in various events and graduations, taught classes in the Jardim Nova Esperança, and set up my own gym in 2010. In 2019, I will receive the master's cord from Grupo Candeias, presented by Mestre Suíno.",
+        "fr-FR": "J'ai commencé la capoeira en 1986 sur la Praça do Chafariz, à Cidade de Goiás, avec des capoeiristes locaux. L'apprentissage se faisait grâce à des livres et à l'aide de professeurs comme Chuluca, Chando, Leninho et Ibéria. Le groupe a grandi, avec le policier Pajé qui a pris en charge les entraînements et a formé le Grupo São Bento Pequeno. En 1995, j'ai déménagé à Goiânia, où j'ai rencontré le maître Suíno et où j'ai intégré le Grupo Candeias. J'ai participé à plusieurs événements et graduations, j'ai donné des cours au Jardim Nova Esperança et j'ai monté ma propre salle en 2010. En 2019, je recevrai la corda de maître du Grupo Candeias, remise par le maître Suíno.",
       },
     },
     {
