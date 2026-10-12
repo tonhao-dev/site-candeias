@@ -677,7 +677,7 @@ export const dadosMestres = {
       inicio: "2022",
       pais: "Brasil",
       bandeira: "brasil",
-      img: "../../assets/images/logo/logo2.png",
+      img: "../../assets/images/conselho-mestres/Membros/miudo.png",
       nucleo: "Jussara - Goiás",
       historia: {
         "pt-BR": "Em breve.",
